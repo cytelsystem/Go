@@ -19,7 +19,7 @@ type Mediano struct {
 }
 
 func (m Mediano) Precio() float64 {
-	return m.precio
+	return m.precio * 3/100 + m.precio
 }
 
 type Grande struct {
@@ -27,7 +27,7 @@ type Grande struct {
 }
 
 func (g Grande) Precio() float64 {
-	return g.precio
+	return g.precio *6 /100 + g.precio + 2500
 }
 
 func CrearProducto(tipo string, precio float64) Producto {
