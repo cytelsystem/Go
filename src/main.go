@@ -1,31 +1,30 @@
-//****************************Panic con defer y recover********************************//
-// La declaración defer en Go se utiliza para posponer la ejecución de una función o expresión hasta que la función que la contiene haya finalizado
-// recover() es una función incorporada en Go que se utiliza para manejar panics y evitar que un programa se cierre abruptamente debido a un error.
+//****************funciones multiretorno para manejo de errores en go********************************//
+// Las funciones de múltiple retorno son muy útiles en Go, especialmente para el manejo de errores.
 
 package main
-import "fmt"
 
-func isPair(num int) {
+import (
+	"errors"
+	"fmt"
+)
 
-	// Dentro de la función defer, estás usando recover() para capturar cualquier valor de panic que se haya producido en el bloque de código anterior. Si se produce un panic, recover() detendrá el flujo normal del programa y devolverá el valor del panic.
-
-	defer func() {
-		err := recover()
-		if err != nil {
-			fmt.Println(err)
-		}
-	}()
-
-	if (num % 2) != 0 {
-		panic("no es un número par")
-	}else {
-		fmt.Println(num, " es un número par")
+func divide(a, b float64) (float64, error) {
+	if b == 0 {
+		return 0, errors.New("No se puede dividir por cero")
 	}
+	return a / b, nil
 }
 
 func main() {
-	isPair(3)
-
+	num1, num2 := 10.0, 2.0
+	result, err := divide(num1, num2)
+	if err != nil {
+		fmt.Println("Error al dividir:", err)
+		return
+	}
+	fmt.Printf("%.2f / %.2f = %.2f\n", num1, num2, result)
 }
+
+
 
 //**********************************************************************//
