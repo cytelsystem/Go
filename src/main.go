@@ -1,30 +1,35 @@
-//****************funciones multiretorno para manejo de errores en go********************************//
-// Las funciones de múltiple retorno son muy útiles en Go, especialmente para el manejo de errores.
-
 package main
 
 import (
-	"errors"
 	"fmt"
+	"os"
 )
 
-func divide(a, b float64) (float64, error) {
-	if b == 0 {
-		return 0, errors.New("No se puede dividir por cero")
+func readDataFromFile(filename string) (string, error) {
+	defer func() {
+		err := recover()
+		if err != nil {
+			fmt.Println(err)
+		}
+	}()
+
+	content, err := os.ReadFile(filename)
+	if err != nil {
+		panic("El archivo indicado no fue encontrado o está dañado")
 	}
-	return a / b, nil
+
+	return string(content), nil
 }
 
 func main() {
-	num1, num2 := 10.0, 2.0
-	result, err := divide(num1, num2)
+	filename := "customers.txt"
+	data, err := readDataFromFile(filename)
 	if err != nil {
-		fmt.Println("Error al dividir:", err)
-		return
+		fmt.Println(err)
 	}
-	fmt.Printf("%.2f / %.2f = %.2f\n", num1, num2, result)
+
+	fmt.Println(data)
+	fmt.Println("Ejecución finalizada")
 }
 
 
-
-//**********************************************************************//
