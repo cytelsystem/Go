@@ -2,34 +2,41 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"os"
 )
 
-func readDataFromFile(filename string) (string, error) {
-	defer func() {
-		err := recover()
-		if err != nil {
-			fmt.Println(err)
-		}
-	}()
-
-	content, err := os.ReadFile(filename)
-	if err != nil {
-		panic("El archivo indicado no fue encontrado o está dañado")
-	}
-
-	return string(content), nil
-}
-
 func main() {
-	filename := "customers.txt"
-	data, err := readDataFromFile(filename)
-	if err != nil {
-		fmt.Println(err)
-	}
 
-	fmt.Println(data)
-	fmt.Println("Ejecución finalizada")
+	crearArchivo("./prueba.txt")
+	// readFile("prueba.txt")
+
 }
 
+func readFile(name string) {
+	file, err := os.ReadFile(name)
+	if err != nil {
+		fmt.Println("Error al leer el archivo")
+		return
+	}
 
+	fmt.Println(file)
+}
+
+func crearArchivo(name string) {
+	file, err := os.Create(name)
+	if err != nil {
+		fmt.Println("No se pudo crear el archivo")
+		return
+	}
+
+	defer file.Close()
+	texto := "Hola"
+
+	_, err = file.WriteString(texto)
+	if err != nil {
+		fmt.Println("no se pudo adicionar el texto")
+	}
+
+	log.Println("Archivo creado correctamente", file, err)
+}
