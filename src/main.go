@@ -19,8 +19,8 @@ func impar(c chan int) {
 }
 
 func main() {
-	paresChan := make(chan int)
-	imparesChan := make(chan int)
+	paresChan := make(chan int, 10)
+	imparesChan := make(chan int, 10)
 
 	go par(paresChan)
 	go impar(imparesChan)
