@@ -1,0 +1,4 @@
+ID, categoria, productos;
+001,Electro,{1 computador 10 2}, {2 celular 1 1};
+002,Pinturas,{5 amarilla 10 10};
+003,Automor,{3 fiat 5 5}, {4 chevrolet 10 10};

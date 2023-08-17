@@ -2,68 +2,114 @@ package main
 
 import (
 	"fmt"
-	"log"
 	"os"
-	"strconv"
 	"strings"
 )
 
-const (
-	fileName = "./data.csv"
-)
+type Producto struct {
+	codigo   int
+	nombre   string
+	precio   float32
+	cantidad int
+}
+
+type Categoria struct {
+	codigo    string
+	nombre    string
+	productos []Producto
+}
+
+func agregarProductoACategoria(c *Categoria, producto Producto) {
+	c.productos = append(c.productos, producto)
+}
+
+func archivoCategorias(categorias ...Categoria) error {
+	f, err := os.Create("categorias.csv")
+	if err != nil {
+		return err
+	}
+	defer f.Close()
+
+	var datos string = "ID, categoria, productos;\n"
+	for _, categoria := range categorias {
+		productosStr := []string{}
+		for _, producto := range categoria.productos {
+			productosStr = append(productosStr, fmt.Sprintf("%v", producto))
+		}
+		datos += fmt.Sprintf("%v,%v,%v;\n", categoria.codigo, categoria.nombre, strings.Join(productosStr, ", "))
+	}
+
+	_, err = f.WriteString(datos)
+	if err != nil {
+		return err
+	}
+
+	data, err := os.ReadFile("./categorias.csv")
+	if err != nil {
+		return err
+	}
+	fmt.Println(strings.Split(string(data), ";\n"))
+	return nil
+}
 
 func main() {
+	cat1 := Categoria{"001", "Electro", nil}
+	cat2 := Categoria{"002", "Pinturas", nil}
+	cat3 := Categoria{"003", "Automor", nil}
 
-	// Uso del envaironment para setear variables.
-	os.Setenv("usuario", "supervisor")
+	prod1 := Producto{1, "computador", 10.0, 2}
+	prod2 := Producto{2, "celular", 1.0, 1}
+	prod3 := Producto{3, "fiat", 5.0, 5}
+	prod4 := Producto{4, "chevrolet", 10.0, 10}
+	prod5 := Producto{5, "amarilla", 10.0, 10}
 
-	usuario := os.Getenv("usuario")
+	agregarProductoACategoria(&cat1, prod1)
+	agregarProductoACategoria(&cat1, prod2)
+	agregarProductoACategoria(&cat3, prod3)
+	agregarProductoACategoria(&cat3, prod4)
+	agregarProductoACategoria(&cat2, prod5)
 
-	if usuario == "admin" {
-		readFile(fileName)
-	} else {
-		fmt.Println("Este usuario no es administrador")
-		fmt.Println("Este usuario tiene privilegios de:", usuario)
-	}
+	// err := archivoCategorias(cat1, cat2, cat3)
+	// if err != nil {
+	// 	fmt.Println(err)
+	// }
 
-}
-
-func readFile(name string) {
-
-	file, err := os.ReadFile(name)
-
+	err := archivoCategorias(cat1, cat2, cat3)
 	if err != nil {
-		log.Println("No se pudo leer el archivo")
+		fmt.Println(err)
 	}
 
-	data := strings.Split(string(file), ";")
-
-	var total float64
-	for i := 0; i < len(data)-1; i++ {
-		var line = strings.Split(string(data[i]), ",")
-
-		if i != 0 {
-			precio, err := strconv.ParseFloat(line[1], 64)
-			if err != nil {
-				log.Println("No se pudo parsear el precio")
-			}
-			cantidad, err2 := strconv.ParseFloat(line[2], 64)
-			if err2 != nil {
-				log.Println("No se pudo parsear la cantidad")
-			}
-
-			totalProducto := precio * cantidad
-			total += totalProducto
-		}
-
-		for i := 0; i < len(line); i++ {
-			fmt.Printf("%s\t\t", line[i])
-			if i == len(line)-1 {
-				fmt.Print("\n")
-			}
-		}
+	err = escribirEstimativos(cat1, cat2, cat3)
+	if err != nil {
+		fmt.Println(err)
 	}
-
-	fmt.Printf("\nTotal\t\t%.2f\n", total)
-
 }
+
+func escribirEstimativos(categorias ...Categoria) error {
+	f, err := os.Create("estimaciones.csv")
+	if err != nil {
+		return err
+	}
+	defer f.Close()
+
+	var estimativos string = "Categoría\tEstimativoPorCategoría\n"
+	totalEstimativo := 0.0
+	for _, categoria := range categorias {
+		estimativoCategoria := 0.0
+		for _, producto := range categoria.productos {
+			estimativoCategoria += float64(producto.precio) * float64(producto.cantidad)
+		}
+		estimativos += fmt.Sprintf("%s\t%.2f\n", categoria.nombre, estimativoCategoria)
+		totalEstimativo += estimativoCategoria
+	}
+	estimativos += fmt.Sprintf("TotalEstimativo\t%.2f\n", totalEstimativo)
+
+	_, err = f.WriteString(estimativos)
+	if err != nil {
+		return err
+	}
+
+	return nil
+}
+
+
