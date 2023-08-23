@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"os/exec"
 	"path/filepath"
 	"strings"
 	"unicode"
@@ -11,6 +12,7 @@ import (
 
 var (
 	pathGlosario = "E:/HECTORJM/Proyectos/ReactJs/glosariodeterminosViteNuevo/src/"
+	linkFile string
 )
 
 type Link struct {
@@ -96,7 +98,7 @@ func readLinks() []Link {
 			break
 		}
 
-		var linkFile string
+		// var linkFile string
 		fmt.Print("Nombre Archivo: ")
 		_, err := fmt.Scanln(&linkFile)
 		if err != nil {
@@ -111,6 +113,31 @@ func readLinks() []Link {
 	return links
 }
 
+func openFileInEditor(filePath string) error {
+	editorCommands := map[string]string{
+		"code":    "code",
+		"notepad": "notepad",
+	}
+
+	editorToUse := "code" // Default to Notepad
+
+	if _, err := os.Stat("C:/Program Files/Microsoft VS Code/Code.exe"); err == nil {
+		editorToUse = "code" // Use VS Code if it's available
+	}
+
+	editorCommand, found := editorCommands[editorToUse]
+	if !found {
+		return fmt.Errorf("Editor '%s' not supported", editorToUse)
+	}
+
+	cmd := exec.Command(editorCommand, filePath)
+	err := cmd.Start()
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
 func main() {
 	selectedJSONPath, err := selectJSONFile()
 	if err != nil {
@@ -118,12 +145,14 @@ func main() {
 		return
 	}
 
+
 	jsonFile, err := os.Open(selectedJSONPath)
 	if err != nil {
 		fmt.Println("Error opening JSON file:", err)
 		return
 	}
 	defer jsonFile.Close()
+
 
 	var data Data
 	decoder := json.NewDecoder(jsonFile)
@@ -159,6 +188,30 @@ func main() {
 
 	data.Results = append(data.Results, newRecord)
 
+	//**********************************************************************//
+
+	// Check if the file extension is ".txt"
+	if filepath.Ext(linkFile) == ".txt" {
+		// Generate the file path using the global variable and "Ejemplos" directory
+		filePath := filepath.Join(pathGlosario, "Ejemplos", linkFile)
+
+		// Create the file
+		_, err := os.Create(filePath)
+		if err != nil {
+			fmt.Println("Error creating file:", err)
+			return
+		}
+
+		// Open the file in the default text editor
+		err = openFileInEditor(filePath)
+		if err != nil {
+			fmt.Println("Error opening file in editor:", err)
+		}
+	}
+
+
+	//**********************************************************************//
+
 	var saveConfirmation string
 	fmt.Print("Presiona Enter para guardar los cambios (o escribe 'cancelar' y presiona Enter para cancelar): ")
 	fmt.Scanln(&saveConfirmation)
@@ -174,3 +227,67 @@ func main() {
 		fmt.Println("Cambios no guardados.")
 	}
 }
+
+// func main() {
+// 	selectedJSONPath, err := selectJSONFile()
+// 	if err != nil {
+// 		fmt.Println(err)
+// 		return
+// 	}
+
+// 	jsonFile, err := os.Open(selectedJSONPath)
+// 	if err != nil {
+// 		fmt.Println("Error opening JSON file:", err)
+// 		return
+// 	}
+// 	defer jsonFile.Close()
+
+// 	var data Data
+// 	decoder := json.NewDecoder(jsonFile)
+// 	err = decoder.Decode(&data)
+// 	if err != nil {
+// 		fmt.Println("Error decoding JSON:", err)
+// 		return
+// 	}
+
+// 	newID := getNextID(data)
+
+// 	var prueba string
+// 	fmt.Scanln(&prueba)
+
+// 	var newName string
+// 	fmt.Print("Nombre: ")
+// 	fmt.Scanln(&newName)
+// 	newName = strings.TrimSpace(newName)
+
+// 	var newDetalle string
+// 	fmt.Print("Descripcion: ")
+// 	fmt.Scanln(&newDetalle)
+// 	newDetalle = strings.TrimSpace(newDetalle)
+
+// 	links := readLinks()
+
+// 	newRecord := Result{
+// 		ID:      newID,
+// 		Name:    newName,
+// 		Detalle: newDetalle,
+// 		Link:    links,
+// 	}
+
+// 	data.Results = append(data.Results, newRecord)
+
+// 	var saveConfirmation string
+// 	fmt.Print("Presiona Enter para guardar los cambios (o escribe 'cancelar' y presiona Enter para cancelar): ")
+// 	fmt.Scanln(&saveConfirmation)
+// 	saveConfirmation = strings.ToLower(strings.TrimSpace(saveConfirmation))
+// 	if saveConfirmation == "" || saveConfirmation == "guardar" {
+// 		err = saveDataToFile(data, selectedJSONPath)
+// 		if err != nil {
+// 			fmt.Println("Error saving JSON file:", err)
+// 			return
+// 		}
+// 		fmt.Println("Cambios guardados exitosamente.")
+// 	} else {
+// 		fmt.Println("Cambios no guardados.")
+// 	}
+// }
