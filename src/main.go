@@ -9,6 +9,10 @@ import (
 	"unicode"
 )
 
+var (
+	pathGlosario = "E:/HECTORJM/Proyectos/ReactJs/glosariodeterminosViteNuevo/src/"
+)
+
 type Link struct {
 	Nombre  string `json:"nombre"`
 	Archivo string `json:"archivo"`
@@ -45,7 +49,7 @@ func saveDataToFile(data Data, filePath string) error {
 }
 
 func selectJSONFile() (string, error) {
-	jsonFolderPath := "./data"
+	jsonFolderPath := pathGlosario + "data"
 
 	files, err := os.ReadDir(jsonFolderPath)
 	if err != nil {
@@ -80,6 +84,33 @@ func contieneCaracterONumero(s string) bool {
 	return false
 }
 
+func readLinks() []Link {
+	links := []Link{}
+	for {
+		var linkName string
+		fmt.Print("Link (o dejar en blanco para terminar): ")
+		fmt.Scanln(&linkName)
+		linkName = strings.TrimSpace(linkName)
+
+		if !contieneCaracterONumero(linkName) {
+			break
+		}
+
+		var linkFile string
+		fmt.Print("Nombre Archivo: ")
+		_, err := fmt.Scanln(&linkFile)
+		if err != nil {
+			fmt.Println("Error al leer la entrada:", err)
+			return links
+		}
+
+		linkFile = strings.TrimSpace(linkFile)
+		link := Link{Nombre: linkName, Archivo: linkFile}
+		links = append(links, link)
+	}
+	return links
+}
+
 func main() {
 	selectedJSONPath, err := selectJSONFile()
 	if err != nil {
@@ -108,38 +139,16 @@ func main() {
 	fmt.Scanln(&prueba)
 
 	var newName string
-	fmt.Print("Ingrese el nombre del nuevo elemento: ")
+	fmt.Print("Nombre: ")
 	fmt.Scanln(&newName)
 	newName = strings.TrimSpace(newName)
 
 	var newDetalle string
-	fmt.Print("Ingrese la descripción del nuevo elemento: ")
+	fmt.Print("Descripcion: ")
 	fmt.Scanln(&newDetalle)
 	newDetalle = strings.TrimSpace(newDetalle)
 
-	links := []Link{}
-	for {
-		var linkName string
-		fmt.Print("Ingrese el nombre del enlace (o dejar en blanco para terminar): ")
-		fmt.Scanln(&linkName)
-		linkName = strings.TrimSpace(linkName)
-
-		if !contieneCaracterONumero(linkName) {
-			break
-		}
-
-		var linkFile string
-		fmt.Print("Ingrese el nombre del archivo del enlace: ")
-		_, err := fmt.Scanln(&linkFile)
-		if err != nil {
-			fmt.Println("Error al leer la entrada:", err)
-			return
-		}
-
-		linkFile = strings.TrimSpace(linkFile)
-		link := Link{Nombre: linkName, Archivo: linkFile}
-		links = append(links, link)
-	}
+	links := readLinks()
 
 	newRecord := Result{
 		ID:      newID,

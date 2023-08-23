@@ -1,8 +1,5 @@
 {
     "results": [
-
-
-
         {
             "id": 1,
             "name": "Formularios",
@@ -13,7 +10,6 @@
                     "archivo": "FormularioHtml.jpg"
                 },
                 {
-
                     "nombre": "link2",
                     "archivo": "FormularioHtml.txt"
                 },
@@ -34,7 +30,6 @@
                     "archivo": "FormulariosAccesiblesHtml.pdf"
                 }
             ]
-
         },
         {
             "id": 2,
@@ -46,7 +41,6 @@
                     "archivo": "FormularioHtml.jpg"
                 },
                 {
-
                     "nombre": "link2",
                     "archivo": "FormularioHtml.txt"
                 },
@@ -67,7 +61,6 @@
                     "archivo": "FormulariosAccesiblesHtml.pdf"
                 }
             ]
-
         },
         {
             "id": 3,
@@ -79,9 +72,7 @@
                     "archivo": "RedireccionarHTML.html"
                 }
             ]
-
         }
-
 
     ]
 }
