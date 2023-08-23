@@ -1,0 +1,1248 @@
+{
+    "results": [
+
+
+        {
+            "id": 1,
+            "name": "Tipos de Errores Consola Chrome",
+            "detalle": "Errores que se reflejan en la consola de chrome",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "TiposErrores.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "TiposErrores.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 2,
+            "name": "DevTools Application Storage",
+            "detalle": "Permite Borrar los datos de la pagina consumida",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "DevToolsApplicationtorage.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "DevToolsApplicationtorage.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 3,
+            "name": "DevTools Lighthouse",
+            "detalle": "DevTools Lighthouse Permite generar reporte de recursos chrome",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "DevToolsLighthouse.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "DevToolsLighthouse.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 4,
+            "name": "Console .error( ) .warn( ) .table( ) Alert()",
+            "detalle": "Commandos de mensajes en Pantalla",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "ComandosBasicosJavaScript.pdf"
+                }
+            ]
+
+        },
+        {
+            "id": 5,
+            "name": "confirm('')",
+            "detalle": "Commandos para mostrar en pantalla una alerta y obtener un true o false",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "confirmJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "confirmJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 6,
+            "name": "prompt('')",
+            "detalle": "Muestra mensaje en pantalla y permite al usuario captura de informacion como texto asi se escriban numeros",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "promptJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "promptJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 7,
+            "name": "Math",
+            "detalle": "Math es un objeto incorporado que tiene propiedades y métodos para constantes y funciones matemáticas",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "MathJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "MathJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 8,
+            "name": "Math.random()",
+            "detalle": "Este Métodos retorna un número aleatorio basado en un algoritmo, un  punto flotante, un número pseudoaleatorio dentro del rango [0, 1).",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "MathRandomJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "MathRandomJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 9,
+            "name": "Math.round()",
+            "detalle": "Este Métodos retorna el valor de un número redondeado al entero más cercano.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "MathRoundJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "MathRoundJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 10,
+            "name": "Math.max()",
+            "detalle": "Este Métodos devuelve el mayor de cero o más números.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "MathMaxJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "MathMaxJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 11,
+            "name": "Math.PI",
+            "detalle": "Esta Propiedad devuelve el mayor de cero o más números.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "MathPIJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "MathPIJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 12,
+            "name": "parseInt()",
+            "detalle": "Esta función parsea una cadena de texto y devuelve un número entero sin decimales.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "parseIntJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "parseIntJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 13,
+            "name": "parseFloat()",
+            "detalle": "Esta función parsea una cadena de texto y devuelve un número con decimales.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "parseFloatJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "parseFloatJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 14,
+            "name": "NaN",
+            "detalle": "La propiedad NaN nos indica que el valor no es un número (Not A Number),",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "NaNJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "NaNJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 15,
+            "name": "for in",
+            "detalle": "for…in nos permite iterar sobre cada una de las propiedades de un objeto.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "forInJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "forInJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 16,
+            "name": "for of",
+            "detalle": "for…of nos permite iterar sobre cada uno de los valores de un elemento iterable, por ejemplo, un array.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "forOfJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "forOfJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 17,
+            "name": "forEach()",
+            "detalle": "Recorre el array y nos devuelve el indice y el contenido del elemento dentro del array",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "forEachJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "forEachJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 18,
+            "name": "querySelector()",
+            "detalle": "Retorna el primer elemento del DOM que cumple con la condición que buscamos.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "querySelectorJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "querySelectorJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 19,
+            "name": "querySelectorAll()",
+            "detalle": "Retorna todos los elementos del DOM que cumplen con la condición que buscamos.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "querySelectorAllJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "querySelectorAllJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 20,
+            "name": "getElementById()",
+            "detalle": "Retorna el elemento del DOM que cumpla con el id que buscamos.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "getElementByIdJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "getElementByIdJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 21,
+            "name": ".innerHTML",
+            "detalle": "Leer o modificar el contenido de una etiqueta HTML",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "innerHTMLJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "innerHTMLJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 22,
+            "name": ".innerText",
+            "detalle": " leer o modificar el texto de una etiqueta HTML",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "innerTextJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "innerTextJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 23,
+            "name": "Style en Javascript",
+            "detalle": "Permite leer y sobreescribir las reglas CSS que se aplican sobre un elemento que hayamos seleccionado.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "StyleJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "StyleJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 24,
+            "name": "Plantillas de texto 'Template literals'",
+            "detalle": "Permite reutilizar la estructura html y enviarle solamente la informacio cambiante incluyendo etiquetas. todo lo que esta en comillas invertidas se puede sumar al HTML `` ",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "TemplateLiteralsJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "TemplateLiteralsJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 25,
+            "name": "classList.add() classList.remove() classList.toggle()",
+            "detalle": "Permite adicionar, eliminar clases desde javascript en una etiqueta Html y con toggle el validad si ya esta la elimina o agrega para no utilizar add y remove",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "classListAddRemoveToggleJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "classListAddRemoveToggleJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 26,
+            "name": "createElement()",
+            "detalle": "Crea un nodo de tipo elemento según el nombre de la etiqueta de HTML que le indiquemos.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "createElementJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "createElementJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 27,
+            "name": "createTextNode()",
+            "detalle": "Crea un nodo de texto explicitado entre comillas. No se visualiza hasta asignarlo a un elemento existente del DOM.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "createTextNodeJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "createTextNodeJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 28,
+            "name": "textContent",
+            "detalle": "Adiciona contenido a un elemento. Hay ocaciones que es mejor utilizar createTextNode()",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "textContentJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "textContentJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 29,
+            "name": "appendChild()",
+            "detalle": "Adhiere dentro del DOM un elemento hijo a un elemento padre. Si el elemento padre ya existía en el documento, cambia su posición hacia el otro elemento padre indicado. Si no existe, lo creamos con createElement()",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "appendChildJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "appendChildJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 30,
+            "name": "hasAttribute()",
+            "detalle": "Sirve para consultar si el elemento posee o no un determinado atributo.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "hasAttributeJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "hasAttributeJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 31,
+            "name": "getAttribute()",
+            "detalle": "Permite obtener el valor de un determinado atributo",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "getAttributeJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "getAttributeJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 32,
+            "name": "removeAttribute()",
+            "detalle": "Borra por completo el atributo y sus valores del elemento. Si no lo encuentra, no hace nada.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "removeAttributeJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "removeAttributeJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 33,
+            "name": "setAttribute()",
+            "detalle": "Este método nos permite agregar un atributo con su respectivo valor al elemento seleccionado.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "setAttributeJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "setAttributeJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 34,
+            "name": "window.onload",
+            "detalle": "Este evento permite que todo el script se ejecute cuando se haya cargado por completo el objeto document dentro del objeto window.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "onloadJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "onloadJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 35,
+            "name": "onclick",
+            "detalle": "Este evento nos permite ejecutar una acción cuando se haga clic sobre el elemento al cual le estamos aplicando la propiedad.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "onclickJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "onclickJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 36,
+            "name": "window.addEventListener",
+            "detalle": "Registra un evento a un objeto en específico, permite agregar mas de un listener a un solo evento, funciona en cualquier elemento del DOM.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "addEventListenerJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "addEventListenerJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 37,
+            "name": "preventDefault()",
+            "detalle": "Nos permite evitar que se ejecute el evento predeterminado —o nativo— del elemento al que se lo estemos aplicando",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "preventDefaultJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "preventDefaultJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 38,
+            "name": "dblclick",
+            "detalle": "Se ejecuta un evento al hacer doble click en un elemento o bottom",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "dblclickJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "dblclickJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 39,
+            "name": "mouseOver",
+            "detalle": "Se activa el elemento al pasar el mouse",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "mouseOverJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "mouseOverJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 40,
+            "name": "onekeypress, onekeydown, onkeyup",
+            "detalle": "Eventos de teclado onekeypress dispara al finalizar el recorrido de presión y liberación de la tecla, onekeydown se activa cuando presiona tecla, onkeyup cuando la tecla se suelta.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "EventTecladoJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "EventTecladoJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 41,
+            "name": "Tipos de Funciones JavaScript",
+            "detalle": "Declaradas, Expresadas, Callbacks, Closures",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "TiposFuncionesJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "TiposFuncionesJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 42,
+            "name": "toLowerCase()",
+            "detalle": "Convertir caracteres de cualquier string a minuscula",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "toLowerCaseJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "toLowerCaseJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 43,
+            "name": "toUpperCase()",
+            "detalle": "Convertir caracteres de cualquier string a Mayusculas",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "toUpperCaseJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "toUpperCaseJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 44,
+            "name": "concat()",
+            "detalle": "Concatenar (Unir) dos o mas string en un unico valor",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "concatJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "concatJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 45,
+            "name": "trim()",
+            "detalle": "Elimina espacios en blanco que se encuentran en ambos estremos de un string",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "trimJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "trimJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 46,
+            "name": "replace() / replaceAll()",
+            "detalle": "Elimina o remplazar caracteres innecesarios",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "replaceAllJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "replaceAllJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 47,
+            "name": "input",
+            "detalle": "Los input son los elementos más comunes para ingresar datos.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "inputJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "inputJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 48,
+            "name": "Select",
+            "detalle": "Permiten seleccionar entre una lista desplegable de opciones.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "SelectJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "SelectJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 49,
+            "name": "Textarea",
+            "detalle": "Se utilizan en caso de que se necesite ingresar una gran cantidad de texto.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "TextareaJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "TextareaJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 50,
+            "name": "Form Obtener datos",
+            "detalle": "Obtenemos los datos ingresados en un formulario gracias a los atributos de algunas etiquetas HTML para luego almacenarlos y ejecutar acciones.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "FormObtenerDatosJavaScript.pdf"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "FormObtenerDatosJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 51,
+            "name": "Normalizar la informacion (Formulario)",
+            "detalle": "Obtenemos los datos ingresados en un formulario y se deben normalizar para que la informacion quede estandar",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "normalizarInformacionJavaScript.pdf"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "normalizarInformacionJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 52,
+            "name": "split()",
+            "detalle": "Permite dividir los caracteres de un string sobre la base del criterio que deseemos, obteniendo como resultado un array que contiene cada uno de los substrings generados.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "splitJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "splitJavaScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 53,
+            "name": "Manejo de fechas",
+            "detalle": "Trabajar con fechas en javaScript",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "ManejoFechasScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "ManejoFechasScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 54,
+            "name": "Form",
+            "detalle": "Manejo de Formularios",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "formFormScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "formFormScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 55,
+            "name": "focus",
+            "detalle": "Cuando el cursor ingresa a un campo input",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "FocusFormScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "FocusFormScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 56,
+            "name": "blur",
+            "detalle": "Cuando el cursor abandona un campo input",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "blurFormScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "blurFormScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 57,
+            "name": "change",
+            "detalle": "Permite identificar cuando el valor de un campo cambio (Funciona en cualquier elemento o todo el formulario)",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "changeFormScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "changeFormScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 58,
+            "name": "submit",
+            "detalle": "Permite identificar cuando se hace click en un button o campo input ambos de tipo submit",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "submitFormScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "submitFormScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 59,
+            "name": "this.value",
+            "detalle": "Para saber que datos esta colocando el usuario en cada campo se identifica el elemento",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "valueFormScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "valueFormScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 60,
+            "name": "location url",
+            "detalle": "Para saber que datos esta colocando el usuario en cada campo se identifica el elemento",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "locationScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "locationScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 61,
+            "name": "Errores Formulario",
+            "detalle": "Almacenar y mostrar los errores de forma organizada en <ul> <li>",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "AlmacenarErrorFormScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "AlmacenarErrorFormScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 62,
+            "name": "Checked validar",
+            "detalle": "Utilizar y validar el metodo checked (chulo)",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "CheckedScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "CheckedScript.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 63,
+            "name": "Json",
+            "detalle": "Formato de texto sencillo utilizado para el intercambio de datos entre distintos sistemas",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "json.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "json.txt"
+                }
+            ]
+        },
+        {
+            "id": 64,
+            "name": "json.parse()",
+            "detalle": "Convierte un texto con formato JSON a tipo de dato equivalente de javaScript.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "jsonParse.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "jsonParse.txt"
+                }
+            ]
+        },
+        {
+            "id": 65,
+            "name": "json.stringify()",
+            "detalle": "Convierte un tipo de dato de JavaScript en un texto en formato JSON.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "jsonStringify.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "jsonStringify.txt"
+                }
+            ]
+        },
+        {
+            "id": 66,
+            "name": "localStorage / sessionStorage",
+            "detalle": "localStorage guarda informacion en el navegador hasta que se elimine y sessionStorage guarda la informacion temporalmente y se elimina al cerrar el navegador",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "localStorageSessionStoragejavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "localStorageSessionStoragejavaScript.txt"
+                }
+            ]
+        },
+        {
+            "id": 67,
+            "name": "Ajax",
+            "detalle": "AJAX (Asynchronous JavaScript and XML) es un conjunto de tecnologías que se utilizan para crear aplicaciones web asíncronas. Esto las vuelve más rápidas y con mejor respuesta a las acciones del usuario.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "AjaxJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "AjaxJavaScript.txt"
+                }
+            ]
+        },
+        {
+            "id": 68,
+            "name": "Ajax Request y Response",
+            "detalle": "AJAX (Asynchronous JavaScript and XML) es un conjunto de tecnologías que se utilizan para crear aplicaciones web asíncronas. Esto las vuelve más rápidas y con mejor respuesta a las acciones del usuario.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "AjaxRequestResponseJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "AjaxRequestResponseJavaScript.txt"
+                }
+            ]
+        },
+        {
+            "id": 69,
+            "name": "Conformacion protocolo HTTP",
+            "detalle": "HyperText Transfer Protocol, o en castellano: protocolo de transferencia de hipertexto, es un protocolo que sirve para gestionar la comunicación entre dos máquinas conectadas a una red.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "ConformacionProtocoloHTTPJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "ConformacionProtocoloHTTPJavaScript.txt"
+                }
+            ]
+        },
+        {
+            "id": 70,
+            "name": "Que es una Api",
+            "detalle": "Es una interfaz que permite la comunicación entre 2 aplicaciones",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "ApisQueEsJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "ApisQueEsJavaScript.txt"
+                }
+            ]
+        },
+        {
+            "id": 71,
+            "name": "Rest",
+            "detalle": "REST es un tipo de arquitectura de servicios que proporciona estándares entre sistemas informáticos para establecer cómo se van a comunicar entre sí",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "RestJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "RestJavaScript.txt"
+                }
+            ]
+        },
+        {
+            "id": 72,
+            "name": "fetch (AJAX Fetch - Get)",
+            "detalle": "API para Javascript con la cuál podemos realizar peticiones HTTP asíncronas utilizando promesas y de forma que el código sea un poco más sencillo y menos verbose.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "fetchScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "fetchScript.txt"
+                }
+            ]
+        },
+        {
+            "id": 73,
+            "name": "fetch (AJAX Fetch - Post)",
+            "detalle": "Envio de informacion a una api por POST",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "fetchPostScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "fetchPostScript.txt"
+                }
+            ]
+        },
+        {
+            "id": 74,
+            "name": "Manejo Errores con (Try, Catch y Finally)",
+            "detalle": "Los errores que se producen en un programa pueden ocurrir debido a nuestros descuidos, una entrada inesperada del usuario, una respuesta errónea del servidor,",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "TryCatchFinallyScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "TryCatchFinallyScript.txt"
+                }
+            ]
+        },
+        {
+            "id": 75,
+            "name": "Buenas prácticas (Principios)",
+            "detalle": "Principio de responsabilidad única, Keep it simple Stupid! (KisS), Don’t repeat yourself (DRY)",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "BuenasPracticasPrincipiosScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "BuenasPracticasPrincipiosScript.pdf"
+                }
+            ]
+        },
+        {
+            "id": 76,
+            "name": "JWT (JSON Web Token)",
+            "detalle": "Es un estándar abierto de codificación, utilizado para transmitir información de manera segura entre dos partes",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "JWTScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "JWTScript.pdf"
+                }
+            ]
+        },
+        {
+            "id": 77,
+            "name": "CRUD",
+            "detalle": "Create, Read, Update y Delete",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "CRUDJavaScript.jpg"
+                }
+            ]
+        },
+        {
+            "id": 78,
+            "name": "Animaciones (Barra de carga)",
+            "detalle": "Barra de carga nos mostrara una animacion que dara la sensación de fluidez y dinamismo mientras se procesa la peticion,  ",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "AnimacionesBarraCargaJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "AnimacionesBarraCargaJavaScript.txt"
+                }
+            ]
+        },
+        {
+            "id": 79,
+            "name": "Animaciones (Spinner)",
+            "detalle": "Un spinner es un tipo de preloader que puede ser muy útil para un sitio web. Brinda información al usuario sobre el estado de nuestra página al realizar la primera carga, priorizando la interfaz (DOM) y luego la funcionalidad.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "AnimacionesSpinnerCargaJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "AnimacionesSpinnerCargaJavaScript.txt"
+                }
+            ]
+        }
+
+
+    ]
+}
+

@@ -1,0 +1,209 @@
+{
+    "results": [
+
+
+        {
+            "id": 1,
+            "name": "Beneficios de automatizar",
+            "detalle": "Automatizar tareas permite ganar tiempo y maximizar la productividad de nuestra infraestructura IT. ",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "BeneficiosAutomatizarInfraestructura.jpg"
+                }
+            ]
+
+        },
+        {
+            "id": 2,
+            "name": "5 Tareas más comunes",
+            "detalle": "5 Tareas más comunes en TI para automatizar",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "5TareasComunesInfraestructura.jpg"
+                }
+            ]
+
+        },
+        {
+            "id": 3,
+            "name": "Infraestructura y servicios",
+            "detalle": "servidores legacy o servicios contratados por un cloud providers.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "InfraestructuraServiciosInfraestructura.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "InfraestructuraServiciosInfraestructura.pdf"
+                }
+            ]
+
+        },
+        {
+            "id": 4,
+            "name": "Middleware",
+            "detalle": "Capa de software que traduce la solicitud para que sea compendida por el servidor",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "MiddlewareInfraestructura.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "MiddlewareInfraestructura.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 5,
+            "name": "virtualización",
+            "detalle": "La virtualización permite mejorar la agilidad, la flexibilidad y la escalabilidad de la infraestructura de IT, al mismo tiempo que proporciona un importante ahorro de costos.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "virtualizaciónInfraestructura.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "virtualizaciónInfraestructura.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 6,
+            "name": "Instalación Windows Linux Mac",
+            "detalle": "3 Ejemplos de instalacion VirtualBox y Vagrant Ejemplo1 Windows, Ejemplo2 Linux, Ejemplo3 Mac",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "InstalacionVirtualBVagrant(Windows).pdf"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "InstalacionVirtualBoxVagrant(Linux).pdf"
+                },
+                {
+                    "nombre": "link3",
+                    "archivo": "InstalacionVirtualBoxVagrant (Mac).pdf"
+                }
+            ]
+
+        },
+        {
+            "id": 7,
+            "name": "Instalación Linux debian Manualmente en virtualBox",
+            "detalle": "Instalacion paso a paso en virtualbox de debian y apache2",
+              "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "InstalacionCrearVMVirtualBox.pdf"
+                }
+            ]
+
+        },
+        {
+            "id": 8,
+            "name": "Configuration management",
+            "detalle": "Es el proceso que permite gestionar los cambios de configuración de nuestros activos informáticos —ya sean de software o hardware—, permitiendo a la organización mantener un registro histórico y a su vez aplicar controles —como un proceso de aprobación para cambios que cumplan con determinadas características—.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "ConfigurationManagementInfraestructuraI.pdf"
+                }
+            ]
+
+        },
+        {
+            "id": 9,
+            "name": "Herramientas de Configuration management",
+            "detalle": "Es el proceso que permite gestionar los cambios de configuración de nuestros activos informáticos —ya sean de software o hardware—, permitiendo a la organización mantener un registro histórico y a su vez aplicar controles —como un proceso de aprobación para cambios que cumplan con determinadas características—.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "ConfigurationManagementInfraestructuraI.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "ConfigurationManagementInfraestructuraI.pdf"
+                }
+            ]
+
+        },
+        {
+            "id": 10,
+            "name": "Ansible",
+            "detalle": "Ansible es una herramienta open source de configuration management y de aprovisionamiento, similar a Chef, Puppet o Salt",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "AnsibleInfraestructuraI.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "AnsibleInfraestructuraI.pdf"
+                },
+                {
+                    "nombre": "link3",
+                    "archivo": "AnsibleEnAccionInfraestructuraI.pdf"
+                }
+            ]
+
+        },
+        {
+            "id": 11,
+            "name": "Configuración de IP en MV",
+            "detalle": "Por defecto, los servidores dedicados están configurados para llevar a cabo una configuración automática de la red a través de DHCP.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "ConfiguracionIPMVInfraestructuraI.pdf"
+                }
+            ]
+
+        },
+        {
+            "id": 12,
+            "name": "Crear un certificado SSL",
+            "detalle": "Crear certificado SSL gratis y asignarselo a un dominio",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "CertificadoSSLInfraestructuraI.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "CertificadoSSLInfraestructuraI.txt"
+                },
+                {
+                    "nombre": "link3",
+                    "archivo": "CertificadoSSLInfraestructuraI.pdf"
+                }
+            ]
+
+        },
+        {
+            "id": 13,
+            "name": "Crear llaves SSH keys",
+            "detalle": "Creación de la pareja de claves SSH",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "SSHkeysInfraestructuraI.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "SSHkeysInfraestructuraI.txt"
+                }
+            ]
+
+        }
+
+
+
+    ]
+}

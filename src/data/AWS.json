@@ -1,0 +1,304 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "name": "Serverless (Informatica sin servidor)",
+      "detalle": "Modelo nativo de la nube que permite que las personas diseñen y ejecuten aplicaciones sin tener que ejecutar servidores amplian o escalan automaticamente repondiendo a la demanda en funcion de las nesecidades.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "ServerlessInfraestructura.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "ServerlessInfraestructura.txt"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Nube híbrida",
+      "detalle": "La nube híbrida es una arquitectura de IT que incorpora cierto grado de gestión, organización y portabilidad de las cargas de trabajo en dos o más entornos.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "NubeHibrida.pdf"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "NubeHibrida.txt"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "VPN",
+      "detalle": "Una red privada a través de una red pública y permite a los usuarios enviar y recibir datos a través de redes públicas o compartidas como si sus dispositivos informáticos estuvieran conectados directamente a la red privada",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "VPNInfraestruturaI.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "VPNInfraestruturaI.txt"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "IaaS (infraestructura como servicio)",
+      "detalle": "El proveedor nos da la posibilidad de instanciar máquinas virtuales en su centro de cómputos sin que nosotros tengamos la necesidad de administrar la infraestructura subyacente.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "IaaSInfraestruturaI.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "IaaSInfraestruturaI.txt"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "PaaS (Plataforma como servicio)",
+      "detalle": "El proveedor nos ofrece una tecnología específica, expuesta por medio de interfaces definidas, ya sean gráficas o APIs, y nos abstrae de toda la gestión de los recursos subyacentes.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "PaaSInfraestruturaI.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "PaaSInfraestruturaI.txt"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "SaaS (Software como servicio)",
+      "detalle": "El proveedor nos ofrece una aplicación.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "SaaSInfraestruturaI.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "SaaSInfraestruturaI.txt"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Máquinas virtuales en la nube",
+      "detalle": "servicio para crear una máquina virtual en la nube, que podría actuar como servidor y a la cual solo tendrías que subir tus bases de datos y programas usados para operar tus negocios.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "MaquinasVirtualesNubeInfraestruturaI.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "MaquinasVirtualesNubeInfraestruturaI.pdf"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Amazon EC2 (Amazon Elastic Compute Cloud)",
+      "detalle": "Es un servicio web que proporciona capacidad informática segura y de tamaño modificable en la nube.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "AmazonEC2InfraestruturaI.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "AmazonEC2InfraestruturaI.pdf"
+        },
+        {
+          "nombre": "link3",
+          "archivo": "AmazonEC2UbuntuInfraestruturaI.pdf"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Microsoft Azure",
+      "detalle": "Es un servicio web de microsoft que proporciona capacidad informática segura y de tamaño modificable en la nube.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "MicrosoftAzureInfraestruturaI.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "MicrosoftAzureInfraestruturaI.txt"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Google Cloud",
+      "detalle": "Es un conjunto de servicios de computación en la nube que se ejecuta en la misma infraestructura que Google usa internamente para sus productos para usuarios finales",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "GoogleCloudInfraestruturaI.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "GoogleCloudInfraestruturaI.txt"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "VPC (Nube virtual privada)",
+      "detalle": "Una nube virtual privada (VPC) es una nube privada que se ubica dentro de una nube pública que le permite aprovechar los beneficios de una red virtualizada, a la vez que utiliza los recursos de la nube pública.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "VpcAWSInfraestructuraI.pdf"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "VpcAWS-InfraestructuraI.pdf"
+        },
+        {
+          "nombre": "link3",
+          "archivo": "VpcAWSCreateInfraestructuraI.pdf"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Escalabilidad y Elasticidad",
+      "detalle": "Escalabilidad, capacidad de los recursos para aumentar o disminuir en tamaño o cantidad y Elasticidad capacidad de incrementar la infraestructura.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "EscalabilidadElasticidadAWSInfraestructuraI.pdf"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Load balancer AWS",
+      "detalle": "Un load balancer (balanceador de carga) es un sistema muy utilizado cuando se tiene que atender mucho tráfico en una aplicación o sitio web.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "LoadBalancerAWSInfraestructuraI.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "LoadBalancerAWSInfraestructuraI.pdf"
+        },
+        {
+          "nombre": "link3",
+          "archivo": "LoadBalancerAWSImplementacionInfraestructuraI.pdf"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Almacenamiento en la nube",
+      "detalle": "El almacenamiento en la nube —en inglés cloud storage— permite guardar cualquier tipo de archivo en una infraestructura digital con la comodidad de la administración y backup remotos.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "AlmacenamientoNubefraestructuraI.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "AlmacenamientoNube-1fraestructuraI.pdf"
+        },
+        {
+          "nombre": "link3",
+          "archivo": "AlmacenamientoNube-2fraestructuraI.pdf"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "S3 AWS (Almacenamiento en la nube)",
+      "detalle": "Amazon Simple Storage Service (Amazon S3)",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "S3AWSfraestructuraI.pdf"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "S3AWS-fraestructuraI.pdf"
+        },
+        {
+          "nombre": "link3",
+          "archivo": "S3AWS-EjerciciofraestructuraI.pdf"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Base de datos en la nube",
+      "detalle": "Existen numerosos tipos de bases de datos en la nube y todas están destinadas a satisfacer necesidades específicas y manejar tipos específicos de cargas de trabajo.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "BaseDatosNubefraestructuraI.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "RDS Base de datos en la nube",
+      "detalle": "Amazon RDS es un servicio web que facilita el establecimiento, la utilización y el escalado de bases de datos relacionales en la nube.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "RDSBaseDatosNubefraestructuraI.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Amazon DynamoDB Base de datos en la nube",
+      "detalle": "Amazon DynamoDB es una base de datos de clave-valor y documentos que ofrecen rendimiento en milisegundos de un solo dígito a cualquier escala.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "AWSDynamoDBBaseDatosNubefraestructuraI.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Servidor EC2 Api",
+      "detalle": "Servidor EC2 Despliegue de Api",
+      "link": [
+        {
+          "nombre": "Configuracion",
+          "archivo": "ServidorEc2ApiAWS.pdf"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "gitlab-ci.yml",
+      "detalle": "Archivos de gitlab despliegue automático CI/CD",
+      "link": [
+        {
+          "nombre": "FrontEnd",
+          "archivo": "FrontEnd-gitlab-ci.yml"
+        },
+        {
+          "nombre": "BackEnd",
+          "archivo": "BackEnd-gitlab-ci.yml"
+        }
+      ]
+    }
+  ]
+}

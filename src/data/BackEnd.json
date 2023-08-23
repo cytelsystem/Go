@@ -1,0 +1,895 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "name": "Bienvenida Segurity",
+      "detalle": "Enterprise Segurity",
+      "link": [
+        {
+          "nombre": "Bienvenida",
+          "archivo": "BienvenidaSegurityBackEndSegurity.jpg"
+        },
+        {
+          "nombre": "La cursada",
+          "archivo": "BienvenidaSegurityBackEndSegurity.pdf"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Trabajo integrador",
+      "detalle": "Trabajo integrador",
+      "link": [
+        {
+          "nombre": "Trabajo integrador",
+          "archivo": "TrabajoIntegradorbackendSegurity.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Identity and Access Management",
+      "detalle": "Identity and Access Management es un sistema que permite a las personas verificadas acceder a los recursos permitidos en el momento que sea solicitado.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "IdentityAccessManagementBackend.jpg"
+        },
+        {
+          "nombre": "Video",
+          "archivo": "IdentityAccessManagementBackendVideo.webm"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Introducción a Keycloak",
+      "detalle": "Keycloak es una herramienta de gestión de identidad y acceso de código abierto que se centra en aplicaciones modernas, como SPA (single page application), aplicaciones móviles o API REST. ",
+      "link": [
+        {
+          "nombre": "Introducción a Keycloak",
+          "archivo": "IntroducciónKeycloakBackend.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Instalación y ejecución de Keycloak",
+      "detalle": "Instalación y ejecución de Keycloak",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "InstalaciónKeycloakJPG.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "InstalaciónKeycloakTXT.txt"
+        },
+        {
+          "nombre": "Video",
+          "archivo": "InstalaciónKeycloakVideo.webm"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Creando y configurando un realm",
+      "detalle": "Un realm (o reino) es un concepto que en Keycloak refiere a un objeto que administra un conjunto de usuarios junto con sus credenciales, roles y grupos.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "Creandoyconfigurandounrealm.jpg"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "Creandoyconfigurandounrealm.pdf"
+        },
+        {
+          "nombre": "Video",
+          "archivo": "CreandoyconfigurandounrealmVideo.webm"
+        },
+        {
+          "nombre": "Consigna",
+          "archivo": "CreandoyconfigurandounrealmConsigna.pdf"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Qué es un Identity and Access Management (IAM)",
+      "detalle": "Consigna",
+      "link": [
+        {
+          "nombre": "Consigna",
+          "archivo": "realmConsignaReino.pdf"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Estándares de Autenticación y Autorización con OpenID Connect",
+      "detalle": "Introducción a estándares",
+      "link": [
+        {
+          "nombre": "Introducción a estándares",
+          "archivo": "IntroducciónEstandaresOpenIDConnect.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Patrones de seguridad",
+      "detalle": "Entre estos patrones se encuentran OAuth 2.0, Open ID Connect (OIDC), Json Web Token (JWT) y OIDC Discovery",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "ProtocolosAutorizacionkeycloak.jpg"
+        },
+        {
+          "nombre": "Patrones de seguridad",
+          "archivo": "PatronesdeseguridadbackendII.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "OAuth 2.0",
+      "detalle": "OAuth 2.0 es un protocolo de autorización estándar utilizado en aplicaciones web y móviles para permitir que un usuario autorice a una aplicación a acceder a sus recursos en otro sistema, sin tener que compartir sus credenciales de inicio de sesión.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "APIGatewaySeguridadJavaOAuth2.jpg"
+        },
+        {
+          "nombre": "Spring Security - OAuth2",
+          "archivo": "APIGatewaySeguridadJava.jpg"
+        },
+        {
+          "nombre": "Spring Security - Implementación OAuth",
+          "archivo": "APIGatewaySeguridadJavaImplementaciónOAuth.jpg"
+        },
+        {
+          "nombre": "Cómo implementar OAuth",
+          "archivo": "ComoImplementarOAuth.pdf"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "OpenID Connect (OIDC)",
+      "detalle": "Es un protocolo de autenticación y autorización en línea que se basa en el estándar OAuth 2.0. ",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "OpenIDConnectOAuth.jpg"
+        },
+        {
+          "nombre": "Video",
+          "archivo": "OpenIDConnectOAuthVideo.webm"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Json Web Token (JWT)",
+      "detalle": "JSON Web Token (JWT) es un estándar abierto (RFC 7519) para la creación de tokens de acceso en aplicaciones web y móviles",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "JsonWebTokenJWT.jpg"
+        },
+        {
+          "nombre": "Video",
+          "archivo": "OpenIDConnectOAuthVideo.webm"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "OIDC Discovery",
+      "detalle": "OIDC Discovery es un mecanismo proporcionado por el protocolo OpenID Connect (OIDC) para descubrir información importante sobre un proveedor de identidad (IdP) que soporta OIDC.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "OIDCDiscovery.jpg"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "OIDCDiscovery.pdf"
+        },
+        {
+          "nombre": "Video",
+          "archivo": "OIDCDiscoveryvideo.webm"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Clientes en Keycloak",
+      "detalle": "En la arquitectura cliente-servidor tenemos claro que existe, un cliente que hace solicitudes (requests) a un servidor, donde luego éste último le proporciona una respuesta.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "ClientesenKeycloak.jpg"
+        },
+        {
+          "nombre": "PDF",
+          "archivo": "ClientesenKeycloak.pdf"
+        },
+        {
+          "nombre": "Video",
+          "archivo": "ClientesenKeycloak.webm"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Usuarios en Keycloak",
+      "detalle": "En Keycloak, los usuarios son la “pieza fundamental” de la gestión de identidad y acceso. Un usuario representa una entidad que necesita acceder a recursos protegidos por la organización y puede ser, por ejemplo, un empleado, un cliente o un proveedor.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "UsuariosenKeycloak.jpg"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "UsuariosenKeycloak.pdf"
+        },
+        {
+          "nombre": "Video",
+          "archivo": "UsuariosenKeycloak.webm"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Autenticación de un usuario",
+      "detalle": "El proceso de autenticación de un usuario es un conjunto de procedimientos y técnicas utilizados para verificar la identidad de un usuario que intenta acceder a un sistema o servicio.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "UsuariosenKeycloak.Autenticacion.jpg"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "AutenticacionUsuariosenKeycloak.pdf"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Practicando con Keycloak",
+      "detalle": "Practicando con Keycloak",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "PracticandoKeycloak.jpg"
+        },
+        {
+          "nombre": "Consigna 1",
+          "archivo": "PracticandoKeycloakConsigna.pdf"
+        },
+        {
+          "nombre": "Consigna 2",
+          "archivo": "PracticandoKeycloakConsigna2.pdf"
+        },
+        {
+          "nombre": "Mesa de trabajo",
+          "archivo": "PracticandoKeycloakConsigna3.pdf"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Integrando Conceptos",
+      "detalle": "Integrando Conceptos",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "IntegrandoConceptosKeycloak.jpg"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "IntegrandoConceptosKeycloak.pdf"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Integracion I",
+      "detalle": "Ejercicio con el profesor y mesa de trabajo",
+      "link": [
+        {
+          "nombre": "Mesa de trabajo",
+          "archivo": "MesaTrabajoEspecializaciónBackEndII.pdf"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "JWT.IO",
+      "detalle": "Herramienta web que permiten decodificar fácilmente el token entre otros",
+      "link": [
+        {
+          "nombre": "Link JWT",
+          "archivo": "linkJWT.pdf"
+        },
+        {
+          "nombre": "epochconverter.com",
+          "archivo": "epochconverter.pdf"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Qué son los Tokens",
+      "detalle": "Los tokens en seguridad informática son dispositivos que se utilizan para autenticar la identidad de un usuario y proporcionar acceso seguro a sistemas y aplicaciones.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "queSonLosToken.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Análisis de un ID token",
+      "detalle": "Si recordamos actividades anteriores que fuimos realizando, podemos recordar que algunas de las request de prueba que realizamos con Keycloak nos devolvieron un campo en particular llamado id_token… La preguntas es ¿Qué es un id token?",
+      "link": [
+        {
+          "nombre": "PDF",
+          "archivo": "AnalisisDeToken.pdf"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Refresh token",
+      "detalle": "Generalmente, el ID token tiene una corta duración, es común que, luego de unos pocos minutos el mismo venza. Sin embargo, es posible obtener un nuevo token y para ello se utiliza un refresh_token.",
+      "link": [
+        {
+          "nombre": "Refresh token",
+          "archivo": "RefreshToken.pdf"
+        },
+        {
+          "nombre": "Video",
+          "archivo": "GenerandoRefreshToken.webm"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "GenerandoRefreshToken.pdf"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Configuraciones adicionales a un refresh token",
+      "detalle": "Existen una serie de configuraciones adicionales que podemos hacer respecto a los Refresh Token para potenciar aún más las medidas de seguridad que podamos proporcionar.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "ConfiguracionAdicionalesRefreshToken.jpg"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "ConfiguracionAdicionalesRefreshToken.pdf"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Scopes de Clientes",
+      "detalle": "En Keycloak, un \"client scope\" (alcance de cliente) es un conjunto de atributos que se pueden asignar a un cliente de aplicación en particular.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "ScopesClientes.jpg"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "ModificaciónPerfildeUsuarioScopes.pdf"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Grupos",
+      "detalle": "En Keycloak, los grupos son una forma de organizar a los usuarios en conjuntos lógicos y jerárquicos. Un grupo es una colección de usuarios que tienen algún tipo de relación o característica común.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "GruposEnKeycloak.jpg"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "GruposEnKeycloak.pdf"
+        },
+        {
+          "nombre": "Video",
+          "archivo": "GruposEnKeycloak.webm"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Roles",
+      "detalle": "En Keycloak, un rol es un conjunto de permisos y privilegios que se pueden asignar a los usuarios para controlar su acceso a los recursos protegidos.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "RolesEnKeycloak.jpg"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "RolesEnKeycloak.pdf"
+        },
+        {
+          "nombre": "Video",
+          "archivo": "RolesEnKeycloak.webm"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Repaso de Conceptos",
+      "detalle": "Repasemos un poco los temas que estuvimos viendo, y pongamos a prueba nuestros conocimientos adquiridos mediante un Quiz.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "RepasodeConceptosKeycloak.jpg"
+        },
+        {
+          "nombre": "Consigna profesor",
+          "archivo": "RepasodeConceptosKeycloak1.pdf"
+        },
+        {
+          "nombre": "Consigna Mesa",
+          "archivo": "RepasodeConceptosKeycloak2.pdf"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Tecnicas de control de Acceso",
+      "detalle": " los mecanismos de control de acceso. Estos se pueden definir como un componente lógico que sirve para capturar una solicitud de acceso (de un usuario/cliente), tomar una decisión y verificar que esa decisión de acceso se cumpla.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "TecnicasdecontroldeAccesoIntroduccion.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "RBAC",
+      "detalle": "En el modelo RBAC, el acceso a los recursos del sistema se otorga según los roles que desempeñan los usuarios en la organización. En lugar de otorgar permisos individuales a cada usuario, los permisos se asignan a roles específicos y los usuarios se asignan a esos roles según sus responsabilidades dentro de la organización.",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "RBAC-tecnicasControlAcceso.pdf"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "ABAC",
+      "detalle": "A diferencia de RBAC, en un sistema de control de acceso basado en atributos (ABAC), cualquier tipo de atributo —como los atributos de usuario y los atributos de recursos— se utilizan para determinar el acceso.",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "TecnicaControlAccesoRBACTestingII.pdf"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "OAuth 2.0 SCOPES",
+      "detalle": " En OAuth 2.0, los \"scopes\" (alcances) son permisos o autorizaciones que un cliente de OAuth puede solicitar a un proveedor de servicios para acceder a recursos protegidos en nombre de un usuario. Los alcances definen qué acciones o datos específicos el cliente tiene permiso para realizar o acceder.",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "OAuth2SCOPESTestingII.pdf"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "GBAC",
+      "detalle": "GBAC (Group-Based Access Control) es un modelo de control de acceso que se utiliza para administrar los derechos de acceso a recursos en sistemas de información. Se basa en la asignación de permisos y privilegios a través de la formación de grupos o roles, en lugar de asignarlos individualmente a usuarios específicos.",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "GBACControlAccesoTestingII.pdf"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Repaso",
+      "detalle": "Técnicas de control de accesso",
+      "link": [
+        {
+          "nombre": "JPG 1",
+          "archivo": "tecnicasdecontroldeaccesorepaso.jpg"
+        },
+        {
+          "nombre": "JPG 2",
+          "archivo": "tiposdecontrolAccesoytiemposkeycloak.jpg"
+        },
+        {
+          "nombre": "Mesa 1",
+          "archivo": "tecnicasdecontroldeaccesomesa1.pdf"
+        },
+        {
+          "nombre": "Mesa 2",
+          "archivo": "tecnicasdecontroldeaccesomesa2.pdf"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Aplicando Keycloak en una APP con Spring Boot",
+      "detalle": "Integración de keycloak con spring-boot",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "springBootkeycloakSegurity.png"
+        },
+        {
+          "nombre": "Video",
+          "archivo": "springBootkeycloakSegurity.html"
+        },
+        {
+          "nombre": "Paso a Paso",
+          "archivo": "springBootkeycloakSegurityPPT.pdf"
+        },
+        {
+          "nombre": "Proyecto",
+          "archivo": "proyectoKeycloakSpringboot.html"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Resumen",
+      "detalle": "Resumen Keycloak + Spring Boot",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "ResumenKeycloakmasSpring.jpeg"
+        },
+        {
+          "nombre": "Proyecto Spring-boot intellij",
+          "archivo": "springboot-keycloak-luisina.zip"
+        },
+        {
+          "nombre": "Collection Json",
+          "archivo": "Keycloak+SpringBoot_LuisinaCollection.postman_collection.json"
+        },
+        {
+          "nombre": "Consigna",
+          "archivo": "ConsignaKeycloakmasSpring.pdf"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "¿Qué son las sesiones?",
+      "detalle": "Tokens y Sesiones más a fondo",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "quesonlasesionesmasafondobacksegurity.jpeg"
+        },
+        {
+          "nombre": "Video",
+          "archivo": "TokensySesionesmasaFondo.webm"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Introducción al manejo de sesiones",
+      "detalle": "El manejo de sesiones en una aplicación web es esencial para proporcionar una experiencia de usuario segura y personalizada.",
+      "link": [
+        {
+          "nombre": "Introducción al manejo de sesiones",
+          "archivo": "Introducciónalmanejodesesionesbackendsegurity.jpeg"
+        },
+        {
+          "nombre": "Video",
+          "archivo": "TokensySesionesmasaFondo.webm"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Tiempo de vida de una sesión",
+      "detalle": "La duración de la sesión determina cuándo las sesiones deben caducar y destruirse. Una vez que expira, los usuarios y clientes asociados con estas sesiones ya no se encuentran autenticados y se ven obligados a volver a autenticarse para establecer una nueva sesión. Verifica cada 15 minutos ",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "Tiempodevidadeunasesionbackendsegurity.jpeg"
+        },
+        {
+          "nombre": "Video",
+          "archivo": "TokensySesionesmasaFondo.webm"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Configurando el tiempo de expiración y de inactividad",
+      "detalle": "Configurar el tiempo de expiración e inactividad de la sesión en Keycloak es importante por varias razones. default 30Minutos inactividad y 10 horas max",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "Coonfiguraciontiempoexpiracionydeinactividadbackendsegurity.jpeg"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "Configuraciontiempoexpiracionydeinactividadbackendsegurity.pdf"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Forzar expiración de una sesión",
+      "detalle": "La expiración de una sesión es un mecanismo de seguridad importante que se utiliza para garantizar que las cuentas de usuario estén protegidas contra el acceso no autorizado.",
+      "link": [
+        {
+          "nombre": "PPT 1",
+          "archivo": "Forzarexpiracióndeunasesionbackendsegurity.pdf"
+        },
+        {
+          "nombre": "PPT 2",
+          "archivo": "Forzarexpiracióndeunasesionbackendsegurity2.pdf"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Hora de Practicar",
+      "detalle": "Luego de haber aprendido sobre sesiones en Keycloak, llegó el momento de poner en práctica estos conocimientos. A continuación, podrás explorar las distintas funcionalidades y características que ofrece Keycloak en relación a las sesiones, incluyendo el control de la duración de las mismas, la configuración de políticas de inactividad, la gestión de tokens, entre otras.",
+      "link": [
+        {
+          "nombre": "Consigna",
+          "archivo": "EjercicioClase8Sesionesbackendsegurity.pdf"
+        },
+        {
+          "nombre": "Mesa de trabajo",
+          "archivo": "MesaDeTrabajoSesionesbackendsegurity.pdf"
+        },
+        {
+          "nombre": "Resolucion mesa de trabajo",
+          "archivo": "ResolucionMesaDeTrabajoSesionesbackendsegurity.pdf"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Integración III",
+      "detalle": "Ejercicio para Mesas de Trabajo",
+      "link": [
+        {
+          "nombre": "Mesa de trabajo Keycloak + Spring Boot",
+          "archivo": "MesadetrabajoKeycloakSpringBootIntegracion.pdf"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Integración de Keycloak con Spring Cloud",
+      "detalle": "Posibilidades de configuración de Keycloak en una arquitectura de microservicios. un Gateway",
+      "link": [
+        {
+          "nombre": "Introducción",
+          "archivo": "IntegraciondeKeycloakconSpringCloudIntroduccion.pdf"
+        },
+        {
+          "nombre": "Integración de Keycloak con Spring Cloud",
+          "archivo": "IntegraciondeKeycloakconSpringCloudPPT1.pdf"
+        },
+        {
+          "nombre": "PPT Integración de Keycloak con Spring Cloud",
+          "archivo": "IntegraciondeKeycloakconSpringCloudPPT2.pdf"
+        },
+        {
+          "nombre": "JPG Practiquemos Integración de Keycloak con Spring Cloud",
+          "archivo": "IntegraciondeKeycloakconSpringCloudJPG.jpeg"
+        },
+        {
+          "nombre": "Proyecto Base",
+          "archivo": "springboot-keycloak-practicabackEndSegurity.zip"
+        },
+        {
+          "nombre": "Video",
+          "archivo": "GateWaySpringboot-keycloakBackEndSegurity.html"
+        },
+        {
+          "nombre": "Integración embebida utilizando Spring Cloud Gateway",
+          "archivo": "PasoapasoKeycloakSpringCloudbackEndSegurity.pdf"
+        },
+        {
+          "nombre": "Gateway - Resolución",
+          "archivo": "ResolucionapigatewayserviceBackEndSegurity.zip"
+        },
+        {
+          "nombre": "Mesa de trabajo sql gateway",
+          "archivo": "MesaGateWaySpringboot-keycloakBackEndSegurity.pdf"
+        },
+        {
+          "nombre": "Base Datos ForrajeriaIguazu.sql",
+          "archivo": "ForrajeriaIguazu.sql"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Autorización con OAuth 2.0",
+      "detalle": "Creacion de cuentas por parte del usuario y su administracion",
+      "link": [
+        {
+          "nombre": "Introducción",
+          "archivo": "JPGAutorizaciónconOAuth2.jpeg"
+        },
+        {
+          "nombre": "Configuración de Registro de usuarios",
+          "archivo": "Pasoapaso-ConfigurarKeycloakparaRegistrodeUsuarios.pdf"
+        },
+        {
+          "nombre": "Administrar una cuenta",
+          "archivo": "PasoaPasoAdministracióndecuentaKeycloakBackEndSegurity.pdf"
+        },
+        {
+          "nombre": "Solicitar y validar información de los usuarios",
+          "archivo": "SolicitaryvalidarinformaciondelosusuariosKeycloakBackEndSegurity.jpeg"
+        },
+        {
+          "nombre": "Integración con login de redes sociales",
+          "archivo": "IntegracionconloginderedessocialesKeycloakBackEndSegurity.pdf"
+        },
+        {
+          "nombre": "Keycloak Admin REST Client PPT 1",
+          "archivo": "KeycloakAdminRESTClientKeycloakBackEndSegurityPPT1.pdf"
+        },
+        {
+          "nombre": "Keycloak Admin REST Client (Paso a Paso)",
+          "archivo": "KeycloakAdminRESTClientKeycloakBackEndSegurityPPT2.pdf"
+        },
+        {
+          "nombre": "Poniendo en Práctica",
+          "archivo": "PoniendoenPracticaAutorizaciónconOAuth2KeycloakBackEndSegurity.pdf"
+        },
+        {
+          "nombre": "Video",
+          "archivo": "KeycloakAdminRESTClientKeycloakBackEndSegurityVideo.html"
+        },
+        {
+          "nombre": "users-service-resuelto.zip",
+          "archivo": "users-service-resueltobackEndSegurity.zip"
+        },
+        {
+          "nombre": "Mesa de trabajo",
+          "archivo": "AutorizaciónconOAuth2MesadeTrabajo.pdf"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Integración IV",
+      "detalle": "Autorización con OAuth 2.0",
+      "link": [
+        {
+          "nombre": "Quiz: Integración de aplicaciones y Keycloak",
+          "archivo": "QuizIntegraciondeaplicacionesyKeycloakBackendSegurity.jpg"
+        },
+        {
+          "nombre": "JPG Ejercicio Práctico",
+          "archivo": "JPGEjercicioPracticoAutorizaciónconOAuthBackendSegurity.jpeg"
+        },
+        {
+          "nombre": "PPT Ejercicio Práctico",
+          "archivo": "PPTEjercicioPracticoAutorizaciónconOAuthBackendSegurity.pdf"
+        },
+        {
+          "nombre": "Mesa Practicando Gestión de usuarios",
+          "archivo": "PPTPracticandoGestionusuariosAutorizaciónconOAuthBackendSegurity.pdf"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Seguridad por tipo de aplicaciones Feign",
+      "detalle": "Feign permite crear clientes HTTP fácilmente. Se utiliza para interactuar con servicios remotos a través de una interfaz declarativa. Feign simplifica la configuración y el uso de clientes HTTP, ya que permite la definición de una interfaz para realizar peticiones HTTP mediante anotaciones.",
+      "link": [
+        {
+          "nombre": "¿Qué es Feign?",
+          "archivo": "SeguridadportipodeaplicacionesFeignQueEs.html"
+        },
+        {
+          "nombre": "Comunicación segura entre microservicios",
+          "archivo": "ComunicacionSeguraEntreMicroserviciosFeign.html"
+        },
+        {
+          "nombre": "PPT Comunicación segura entre microservicios Configuración",
+          "archivo": "PPTComunicacionSeguraEntreMicroserviciosFeign.pdf"
+        },
+        {
+          "nombre": "Autenticación de Servicio a Servicio",
+          "archivo": "AutenticacióndeServicioaServicioFeig.html"
+        },
+        {
+          "nombre": "Video",
+          "archivo": "ComunicacionMicroserviciosFeignAutenticacionToken.html"
+        },
+        {
+          "nombre": "Código Resolución",
+          "archivo": "codigo-resolucion-videoclase16.zip"
+        },
+        {
+          "nombre": "Consigna Mesa",
+          "archivo": "EjercicioPracticoClase16SyncMesadetrabajo.pdf"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Autenticación por Redes Sociales",
+      "detalle": "Autenticación por Redes Sociales",
+      "link": [
+        {
+          "nombre": "Introduccion",
+          "archivo": "AutenticaciónporRedesSocialesIntroduccionbackendS.html"
+        },
+        {
+          "nombre": "Seguridad en aplicaciones internas y externas",
+          "archivo": "SeguridadenaplicacionesinternasyexternasbackendS.html"
+        },
+        {
+          "nombre": "PPT  Seguridad en aplicaciones internas y externas",
+          "archivo": "SeguridadenaplicacionesinternasyexternasbackendSPPT.pdf"
+        },
+        {
+          "nombre": "Arquitectura de las aplicaciones a securitizar",
+          "archivo": "Arquitecturadelasaplicacionesasecuritizar.PDF"
+        },
+        {
+          "nombre": "Key for Code Exchange (PKCE)",
+          "archivo": "KeyforCodeExchangePKCEbackendSe.pdf"
+        },
+        {
+          "nombre": "Anti-patrones de integración de seguridad con IAM",
+          "archivo": "Anti-patronesdeintegraciondeseguridadconIAM.html"
+        },
+        {
+          "nombre": "Seguridad en diferentes arquitecturas de aplicación",
+          "archivo": "SeguridadendiferentesarquitecturasdeaplicacionbackendSE.html"
+        },
+        {
+          "nombre": "Video",
+          "archivo": "VideoSeguridadendiferentesarquitecturasdeaplicacionbackendSE.webm"
+        },
+        {
+          "nombre": "Consigna Falta C17S",
+          "archivo": "VideoSeguridadendiferentesarquitecturasdeaplicacionbackendSE.webm"
+        },
+        {
+          "nombre": " Resolución - product-app.zip",
+          "archivo": "ResoluciónproductappAutenticacionRedesSociales.zip"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Integración VI",
+      "detalle": "Diagrama de arquitectura de seguridad",
+      "link": [
+        {
+          "nombre": "Diagrama",
+          "archivo": "DiagramadearquitecturadeseguridadBackEndSegurity.html"
+        }
+      ]
+    }
+  ]
+}

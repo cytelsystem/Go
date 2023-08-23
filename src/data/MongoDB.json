@@ -1,0 +1,614 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "name": "MongoDB",
+      "detalle": "MongoDB es un sistema de base de datos NoSQL orientado a documentos open source.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "MongoDB.jpg"
+        },
+        {
+          "nombre": "PPT Introduccion NoSQL",
+          "archivo": "PPTIntroducciónANoSQL.pdf"
+        },
+        {
+          "nombre": "PPT SQL vs NoSQL",
+          "archivo": "PPTSQLvsNoSQL.pdf"
+        },
+        {
+          "nombre": "JPG SQL vs NoSQL",
+          "archivo": "JPGSQLvsNoSQL.jpg"
+        },
+        {
+          "nombre": "PPT Revisión Base Datos No relacionales",
+          "archivo": "PPT_RevisionBasesDatosNoRelacionales.pdf"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Instalacion MongoDB Windows",
+      "detalle": "MongoDB Instalacion en windows y ROBO 3T",
+      "link": [
+        {
+          "nombre": "JPG Instalación y Robo 3T",
+          "archivo": "InstalacionMongoDB.jpg"
+        },
+        {
+          "nombre": "Código Instalacion",
+          "archivo": "InstalacionMongoDB.txt"
+        },
+        {
+          "nombre": "Instalar en windows ",
+          "archivo": "InstalacionMongoDB.pdf"
+        },
+        {
+          "nombre": "Instalacion Mongo otro manual",
+          "archivo": "InstalacionMongoDB2.pdf"
+        },
+        {
+          "nombre": "Video Instalacion",
+          "archivo": "InstalacionMongoDB.webm"
+        },
+        {
+          "nombre": "Instalacion en Contenedor Docker",
+          "archivo": "InstalacionMongoDBDocker.txt"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Instalacion MongoDB con Spring linux y Mac",
+      "detalle": "Instalacion Mongo en Linux y Mac",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "InstalacionLinuxMongoDB.pdf"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "InstalacionMacMongoDB.pdf"
+        },
+        {
+          "nombre": "link3",
+          "archivo": "InstalacionMongoDB.pdf"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Documentacion MongoDB",
+      "detalle": "Link Documentación MongoDB",
+      "link": [
+        {
+          "nombre": "Link",
+          "archivo": "LinkDocumentacionMongoDB.pdf"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "MongoDB y MySQL",
+      "detalle": "Principales diferencias entre los 2 tipos de bases de datos",
+      "link": [
+        {
+          "nombre": "Diferencias MongoDB y MySQL",
+          "archivo": "DiferenciasMongoDByMySQL.pdf"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Modelado Base Datos",
+      "detalle": "Modelado en bases de datos NoSQL",
+      "link": [
+        {
+          "nombre": "Modelado Base de Datos Mongo",
+          "archivo": "ModeladoBaseDatosMongo.pdf"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "MongoDB Compass",
+      "detalle": "Compass es una herramienta Local interactiva para crear, consultar, optimizar y analizar sus datos de MongoDB en un entorno visual.",
+      "link": [
+        {
+          "nombre": "PPT 1 MongoDB Compass",
+          "archivo": "MongoDBCompass.pdf"
+        },
+        {
+          "nombre": "PPT 2 MongoDB Compass",
+          "archivo": "MongoDBCompassPPT2.pdf"
+        },
+        {
+          "nombre": "PPT 3 MongoDB Compass",
+          "archivo": "MongoDBCompassPPT3.pdf"
+        },
+        {
+          "nombre": "QueryCompleja",
+          "archivo": "PDF_QueriesComplejasMongo.pdf"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Mongo Atlas",
+      "detalle": "Es una interface en la nube que permite crear en line Cluster y bases de datos (Compass es interface local)",
+      "link": [
+        {
+          "nombre": "PDF",
+          "archivo": "MongoAtlasClusterPDF.pdf"
+        },
+        {
+          "nombre": "JPG",
+          "archivo": "MongoAtlasClusterPDF.jpg"
+        },
+        {
+          "nombre": "Video",
+          "archivo": "VideoMongoAtlas.webm"
+        },
+        {
+          "nombre": "Implementacion Base Datos",
+          "archivo": "A22A_PPT_Implementandobasedatos.pdf"
+        },
+        {
+          "nombre": "Conexion Mongo Compass",
+          "archivo": "A22A_PPT_AcessandoCompass.pdf"
+        },
+        {
+          "nombre": "Data Lake",
+          "archivo": "A22A_PPT_DataLake.pdf"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "use",
+      "detalle": "Para crear una base de datos o modificar una existente, utilizamos el comando use.",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "MongoDBvariosComandos1.pdf"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "MongoComandouse.txt"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Crear una Base de datos",
+      "detalle": "Crear una base de datos MongoDB",
+      "link": [
+        {
+          "nombre": "PDF",
+          "archivo": "CrearBaseDatosMongoDB.pdf"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "CrearBaseDatosMongoDB.txt"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "db",
+      "detalle": "El comando db muestra el nombre de la base de datos que se está utilizando actualmente.",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "MongoDBvariosComandos1.pdf"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Show databases",
+      "detalle": "Muestra todas las bases de datos dentro de un schema",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "showdatabasesMongo.txt"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "db.dropDatabase( )",
+      "detalle": "Elimina una Base de datos en la cual estoy parado",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "MongoDBvariosComandos1.pdf"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "MongodropDatabase.txt"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Crear Collection",
+      "detalle": "Colection en bases de datos NoSQL en equivalente a una tabla en Mysql",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "CrearCollectionMongo.txt"
+        },
+        {
+          "nombre": "PPT 1",
+          "archivo": "MongoDBvariosComandos1.pdf"
+        },
+        {
+          "nombre": "PPT 2",
+          "archivo": "PPT_MongoDBCRUD.pdf"
+        },
+        {
+          "nombre": "PPT 3",
+          "archivo": "PPT_MongoDBCollection.pdf"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Show collections",
+      "detalle": "Muestra todas las collection de una base de datos",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "showCollectionsMongo.txt"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "MongoDB desde Spring",
+      "detalle": "Trabajar con java e intelliJ desde spring",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "MongoDBdesdeSpringMongoDB.pdf"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "CrearBaseDatosMongoDB.txt"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Anotaciones MongoDB con Spring",
+      "detalle": "Anotaciones que puedo utilizar en MongoDB",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "AnotacionesMongoDB.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "AnotacionesMongoDB.txt"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Proyecto Paqueteria Java y MongoDB",
+      "detalle": "Paqueteria con java Spring base de datos MongoDB",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "PomProPaqueteriaMongoDB.txt"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "ProPaqueteriaMongoDB.txt"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Comandos básico",
+      "detalle": "Comandos básicos en mongoDB",
+      "link": [
+        {
+          "nombre": "Comandos Basicos",
+          "archivo": "ComandosBasicomongoDB.pdf"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "insertOne",
+      "detalle": "Insertar un documento dentro de una collection en una base de datos",
+      "link": [
+        {
+          "nombre": "PPT 1",
+          "archivo": "MongoDBvariosComandos1.pdf"
+        },
+        {
+          "nombre": "PPT 2",
+          "archivo": "PPT_MongoDBCRUD.pdf"
+        },
+        {
+          "nombre": "Code",
+          "archivo": "insertOneMongoDB.txt"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "insertMany",
+      "detalle": "Inserta varios documentos en una collection en Mongo",
+      "link": [
+        {
+          "nombre": "Code",
+          "archivo": "insertManyMongo.txt"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "find()",
+      "detalle": "Consultar o SELECT documentos mongo",
+      "link": [
+        {
+          "nombre": "PPT 1",
+          "archivo": "MongoDBvariosComandos1.pdf"
+        },
+        {
+          "nombre": "PPT 2",
+          "archivo": "PPT_MongoDBCRUD.pdf"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "findMongoDb.txt"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "update",
+      "detalle": "Para actualizar un documento, MongoDB provee operadores de actualización. Como $set, para modificar los valores de los campos",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "PPT_MongoDBCRUD.pdf"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "MongoUpdate.txt"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "deleteOne",
+      "detalle": "Elimina un documento",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "PPT_MongoDBCRUD.pdf"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "MongoDeleteOne.txt"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "deleteMany",
+      "detalle": "Elimina varios documentos",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "PPT_MongoDBCRUD.pdf"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "MongodeleteMany.txt"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "limit( )",
+      "detalle": "El comando limit() limita los registros en MongoDB. Este método establece el número de documentos que desea que se muestren.",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "MongoDBvariosComandos1.pdf"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "MongoLimit.txt"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "sort( )",
+      "detalle": "El comando sort ( ) ordena documentos. Este método establece un orden ascendente cuando el parámetro es 1, mientras que -1 se utiliza para establecer un orden descendente.",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "MongoDBvariosComandos1.pdf"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "MongoSort.txt"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "skipe",
+      "detalle": "Devuelbe en una consulta apartir del numero que le indiquemos",
+      "link": [
+        {
+          "nombre": "PDF",
+          "archivo": "ComandosBasicomongoDB.pdf"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "Mongoskipe.txt"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "$regex",
+      "detalle": "Equivalente a la función LIKE de MySQL",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "MongoRegex.txt"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "$lookup",
+      "detalle": "Función equivalente a left join. cruzar dos documentos que tengan dos campos similares. consulta de agregacion",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "mongolookup.txt"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "$unwind",
+      "detalle": "Transforma el array en objetos, facilitando la recuperación de los datos. Separa los documentos para poderlos sumar si es el caso",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "Mongounwind.txt"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "$push",
+      "detalle": "Agrega una matriz del atributo seleccionado. Puedo crear un arreglo dentro un documento y adicionarle datos para mostrar",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "Mongopush.txt"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "$project",
+      "detalle": "Habilita(1) o desabilita(0) los campos que quiero mostrar en una consulta de group dentro de un aggregate",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "Mongoproject.txt"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Operadores logicos",
+      "detalle": "Operadores logicos y Comparacion",
+      "link": [
+        {
+          "nombre": "PDF",
+          "archivo": "MongoDBOperadoresLogicosycomparacion.pdf"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "OperadoresLogicosMongo.txt"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Indices",
+      "detalle": "Un índice es una estructura de datos que ayuda a optimizar las consultas a la base de datos. Un índice en MongoDB es similar a un índice en un libro: permite encontrar la información que se necesita de forma más rápida y eficiente.",
+      "link": [
+        {
+          "nombre": "PDF",
+          "archivo": "PDFestilizado_TiposÍndicesMongoDB.pdf"
+        },
+        {
+          "nombre": "JPG",
+          "archivo": "PDFestilizado_TiposÍndicesMongoDB.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "PDFestilizado_TiposÍndicesMongoDB.txt"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Trigger y Data API",
+      "detalle": "-Triggers Le permite ejecutar la lógica del lado del servidor en respuesta a eventos de la base de datos o según un cronograma. -Data API Le permite leer y modificar datos en MongoDB Atlas a través de HTTP.",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "PPT_DataServicesTriggerMongo.pdf"
+        },
+        {
+          "nombre": "JPG",
+          "archivo": "MongoAtlasClusterPDF.jpg"
+        },
+        {
+          "nombre": "Api con postman",
+          "archivo": "A22A__PDF_APIData.pdf"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Clusters",
+      "detalle": "Un cluster en Mongo Atlas es un conjunto de nodos de base de datos que están interconectados y trabajan juntos para almacenar y procesar datos. ",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "ClustersMongoAtlas.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "MongoDB App Services",
+      "detalle": "Los desarrolladores de back end pueden utilizar App Services para desarrollar rápidamente aplicaciones basadas en la nube que puedan reaccionar a los cambios en sus datos de MongoDB Atlas",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "MongoDBApServicesJPG.jpg"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "MongoDBApServicesPPT.pdf"
+        },
+        {
+          "nombre": "Video",
+          "archivo": "MongoDBApServicesPPT.webm"
+        },
+        {
+          "nombre": "Proyecto en Realm",
+          "archivo": "MongoDBApServicesrealm.jpg"
+        },
+        {
+          "nombre": "Instalación de CLI de Realm",
+          "archivo": "MongoDBApServicesCliRealm.jpg"
+        },
+        {
+          "nombre": "Cuestionario Realm",
+          "archivo": "MongoDBCuestionarioRealm.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "name": "Eliminar Rama Local",
+      "detalle": "Elimina la rama en git",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "EliminarRamaGit.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "EliminarRamaGit.txt"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Eliminar Rama Remota en GitHub",
+      "detalle": "Eliminar Rama Remota en GitHub",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "EliminarRamaRemotaGit.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "EliminarRamaRemotaGit.txt"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Descargar todas las Ramas Remotas en GitHub",
+      "detalle": "Bajar y actualizar todas las ramas de un repositorio de github",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "DescargarRamasRemotasGit.txt"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "GitIgnore",
+      "detalle": "Es un archivo de texto que le dice a Git qué archivos o carpetas ignorar en un proyecto",
+      "link": [
+        {
+          "nombre": "Borrar cached",
+          "archivo": "borrarCacheGithub.txt"
+        },
+        {
+          "nombre": "gitignore",
+          "archivo": "gitignore.txt"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,786 @@
+{
+    "results": [
+
+
+        {
+            "id": 1,
+            "name": "var",
+            "detalle": "Variable para guardar valores de forma global",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "var.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "var.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 2,
+            "name": "let",
+            "detalle": "Variable para guardar valores de forma local en una funcion",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "let.txt"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Math.round()",
+            "detalle": "Retorna el valor redondeado al entero mas cercano",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "MathRound.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "MathRound.txt"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "If ternario",
+            "detalle": "Version Abreviada del IF",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "ifTernario.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "ifTernario.txt"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Switch",
+            "detalle": "El switch nos propone una sintaxis más legible para los casos en los que queremos evaluar muchas posibilidades de un solo valor",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "Switch.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "Switch.txt"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "typeof",
+            "detalle": "Devolver el tipo de dato",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "typeof.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "typeof.txt"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": ".length",
+            "detalle": "Devolver la longitud de una cadena de texto",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "length.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "length.txt"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": ".toUpperCase",
+            "detalle": "Convierte a mayusculas un string",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "toUpperCase.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "toUpperCase.txt"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": ".charAt()",
+            "detalle": "Se ubica el caracter que se le indica dentro de un string",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "charAt.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "charAt.txt"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": ".slice()",
+            "detalle": "Toma una porcion determinada de una cadena de texto y un indice en un array",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "slice.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "slice.txt"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": ".trim()",
+            "detalle": "Elimina los espacios que esten al principio y al final de un string",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "trim.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "trim.txt"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": ".split()",
+            "detalle": "Convierte un string en un array",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "split.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "split.txt"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": ".replace()",
+            "detalle": "Permite remplazar una porcion de texto dentro de un string",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "replace.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "replace.txt"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Array[]",
+            "detalle": "Permite almacenar elementos puntuales ocupando una pocicion numerada",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "array.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "array.txt"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": ".push()",
+            "detalle": "Permite adicionar la final de un array otros elementos",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "push.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "push.txt"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": ".pop()",
+            "detalle": "Elimina el último elemento de un array",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "pop.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "pop.txt"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": ".shift()",
+            "detalle": "Elimina el primer elemento de un array o elemento [0]",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "shift.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "shift.txt"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": ".unshift()",
+            "detalle": "Agrega uno o varios elementos al principio de un array",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "unshift.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "unshift.txt"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": ".join()",
+            "detalle": "Une los elementos de un array utilizando el separador que le especifiquemos.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "join.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "join.txt"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": ".indexOf",
+            "detalle": "Devolver la pocicion de ubicacion elemento(texto) dentro de un array",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "indexOf.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "indexOf.txt"
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "name": ".lastindexOf",
+            "detalle": "Devolver la pocicion de ubicacion elemento(texto) dentro de un array pero empieza a buscar desde el final",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "lastindexof.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "lastindexof.txt"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": ".includes",
+            "detalle": "Simitar la indexof() con la salvedad que retorna un booleano",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "includes.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "includes.txt"
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "name": "for",
+            "detalle": "Ciclo repetitivo que permite repetir varias instrucciones(Pasos) miestras se cumpla la condición",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "for.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "for.txt"
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "name": "While",
+            "detalle": "Hace un ciclo repetitivo con una estructura conmo el if",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "while.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "while.txt"
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "name": "do While",
+            "detalle": "Ciclo repetitivo identico al while pero la condicion se verifica al finalizar el bloque de codigo",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "do_while.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "do_while.txt"
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "name": "Objetos Literales",
+            "detalle": "Dentro de un Objeto se pueden tener varios elementos y poderlos consultar y llamar cada uno de forma independiente",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "objetoLiteral.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "objetoLiteral.txt"
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "name": "Metodo",
+            "detalle": "Funcion creada dentro de un objeto Literal",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "metodo.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "metodo.txt"
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "name": "Funciones Constructoras",
+            "detalle": "Funciones Constructoras",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "funcionesConstructoras.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "funcionesConstructoras.txt"
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "name": "Instanciar",
+            "detalle": "Crear un objeto particular a partir de su funcion molde",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "instanciar.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "instanciar.txt"
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "name": "this",
+            "detalle": "Llamar a un elemento u objeto que esta en el entorno local",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "this.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "this.txt"
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "name": "Json",
+            "detalle": "Formato de texto sencillo utilizado para el intercambio de datos entre distintos sistemas",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "json.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "json.txt"
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "name": "json.parse()",
+            "detalle": "Convierte un texto con formato JSON a tipo de dato equivalente de javaScript.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "jsonParse.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "jsonParse.txt"
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "name": "json.stringify()",
+            "detalle": "Convierte un tipo de dato de JavaScript en un texto en formato JSON.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "jsonStringify.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "jsonStringify.txt"
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "name": "exports()",
+            "detalle": "Permite Exportar Modulos creados en archivos externos",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "exports.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "exports.txt"
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "name": "require()",
+            "detalle": "Permite importar Modulos creados en archivos externos",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "require.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "require.txt"
+                }
+            ]
+        },
+        {
+            "id": 36,
+            "name": ".writeFileSync()",
+            "detalle": "Permite escribir dentro de archivos externos y remplaza la información",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "writeFileSync.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "writeFileSync.txt"
+                }
+            ]
+        },
+        {
+            "id": 37,
+            "name": ".appendFileSync()",
+            "detalle": "Permite agregar (Adicionar) contenido a archivos externos",
+
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "appendFileSync.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "appendFileSync.txt"
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "name": ".readFileSync()",
+            "detalle": "Permite recuperar (extraer) datos de un archivo externo",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "readFileSync.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "readFileSync.txt"
+                }
+            ]
+        },
+        {
+            "id": 39,
+            "name": "Arrow Functions",
+            "detalle": "Forma compacta de crear o expresar nuestras funciones.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "ArrowFunctions.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "ArrowFunctions.txt"
+                }
+            ]
+        },
+        {
+            "id": 40,
+            "name": "callback",
+            "detalle": "Un callback es una función que se pasa como parámetro de otra función.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "callback.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "callback.txt"
+                }
+            ]
+        },
+        {
+            "id": 41,
+            "name": ".map()",
+            "detalle": "Retorna un array nuevo modificando los elementos de acuerdo al return de la function()",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "map.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "map.txt"
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "name": ".filter()",
+            "detalle": "Filtra los Elementos y return un nuevo array de acuerdo a la operacion en la function()",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "filter.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "filter.txt"
+                }
+            ]
+        },
+        {
+            "id": 43,
+            "name": ".reduce()",
+            "detalle": "Almacenar el resultado los Elementos y return un nuevo array de acuerdo a la operacion en la function()",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "reduce.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "reduce.txt"
+                }
+            ]
+        },
+        {
+            "id": 44,
+            "name": ".forEach()",
+            "detalle": "Recorre el array y nos devuelve el indice y el contenido del elemento dentro del array",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "forEach.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "forEach.txt"
+                }
+            ]
+        },
+        {
+            "id": 45,
+            "name": ".splice()",
+            "detalle": "Este método nos sirve para remover y/o agregar elementos de un array. Recibe tres parámetros:",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "splice.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "splice.txt"
+                }
+            ]
+        },
+        {
+            "id": 46,
+            "name": ".sort()",
+            "detalle": "Este método nos sirve para ordenar los elementos de un array.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "sort.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "sort.txt"
+                }
+            ]
+        },
+        {
+            "id": 47,
+            "name": ".find()",
+            "detalle": "Este método devuelve el valor del primer elemento de un array que cumple con una función especificada (callback).",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "find.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "find.txt"
+                }
+            ]
+        },
+        {
+            "id": 48,
+            "name": "parseFloat",
+            "detalle": "Este método permite convertir Json string numero ('25'), leerlo y sumarlo con decimales.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "parseFloat.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "parseFloat.txt"
+                }
+            ]
+        },
+        {
+            "id": 49,
+            "name": "findIndex",
+            "detalle": "Obtener el index apartir de un elemento de un array o metodo",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "findIndex.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "findIndex.txt"
+                }
+            ]
+        },
+        {
+            "id": 50,
+            "name": "setTimeout",
+            "detalle": "Temporizador para ejecutar deteminada funcion o codigo dependiendo de los milisegundos dados",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "setTimeoutJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "setTimeoutJavaScript.txt"
+                }
+            ]
+        },
+        {
+            "id": 51,
+            "name": "Spread Operator",
+            "detalle": "( ...) permite que un iterable, como una matriz o cadena, se expanda en lugares donde se esperan cero o más argumentos (para llamadas a funciones) o elementos (para literales de matriz).",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "SpreadOperatorJavaScript.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "SpreadOperatorJavaScript.txt"
+                }
+            ]
+        },
+        {
+            "id": 52,
+            "name": "Operador modulo %2",
+            "detalle": "Dados dos números positivos, a (el dividendo) y n (el divisor), módulo n (abreviado como mod n)nota 1​ es el resto de la división euclídea de a entre n.",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "OperadorModuloJavaScript.jpg"
+                },
+                {
+                    "nombre": "Codigo",
+                    "archivo": "OperadorModuloJavaScript.txt"
+                }
+            ]
+        }
+
+
+    ]
+}

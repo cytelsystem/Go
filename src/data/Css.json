@@ -1,0 +1,20 @@
+{
+    "results": [
+        {
+            "id": 1,
+            "name": "Media Query",
+            "detalle": "Responsive Web Design @media",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "MediaQueryCss.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "MediaQueryCss.txt"
+                }
+            ]
+        }
+
+    ]
+}

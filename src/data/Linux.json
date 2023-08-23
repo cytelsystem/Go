@@ -1,0 +1,529 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "name": "cat",
+      "detalle": "Crear un archivo e imprimir por pantalla su contenido.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "catLinux.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "catLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "more",
+      "detalle": "Imprimir por pantalla el contenido de un archivo de texto",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "moreLinux.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "moreLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "nano",
+      "detalle": "Nano es un editor de textos para la terminal",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "nanoLinux.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "nanoLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "grep",
+      "detalle": "Se encarga de buscar un patrón que definamos en un archivo de texto",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "grepLinux.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "grepLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "tee",
+      "detalle": "Lee una entrada estándar y la escribe en la salida estándar",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "teeLinux.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "teeLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "curl",
+      "detalle": "El uso más simple de cURL es mostrar el contenido de una página.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "curlLinux.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "curlLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "jq",
+      "detalle": "jq se basa en el concepto de filtros que funcionan sobre un flujo de JSON (Obtener datos json)",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "jqLinux.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "jqLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Commandos con Pipeline | ",
+      "detalle": "El pipeline en Linux se representa con la barra vertical (|), la cual dividirá los comandos",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "commandosPipelineLinux.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "commandosPipelineLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "locate",
+      "detalle": "Buscar archivos en linux",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "locateLinux.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "locateLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "find",
+      "detalle": "Buscar archivos en linux rentro de un directorio de inicio y sus subdirectorios. ",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "findLinux.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "findLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "df",
+      "detalle": "Usá el comando df para obtener un informe sobre el uso del espacio en disco",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "dfLinux.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "dfLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "du",
+      "detalle": "Te pemite verificar cuánto espacio ocupa un archivo o un directorio.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "duLinux.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "head",
+      "detalle": "Se usa para ver las primeras líneas de cualquier archivo de texto.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "heardLinux.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "tail",
+      "detalle": "Se usa para mostrar las últimas diez líneas de cualquier archivo de texto.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "tailLinux.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "diff",
+      "detalle": "Compara el contenido de dos archivos línea por línea.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "diffLinux.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "tar",
+      "detalle": "Empaquetar archivos con compresión opcional. similar al ZIP",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "tarLinux.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "chmod",
+      "detalle": "Se utiliza para cambiar los permisos de lectura, escritura y ejecución de archivos y directorios.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "chmodLinux.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "chmodLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "jobs",
+      "detalle": "El comando jobs mostrará todos los trabajos actuales junto con sus estados.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "jobsLinux.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "kill",
+      "detalle": "Matar programas o procesos que no responden",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "killLinux.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "killLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "wget",
+      "detalle": "Te permite descargar archivos de Internet.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "wgetLinux.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "uname",
+      "detalle": "Imprimirá información detallada sobre tu sistema Linux,",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "unameLinux.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "top",
+      "detalle": "Se trata de una terminal equivalente al Administrador de tareas en Windows.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "topLinux.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "man",
+      "detalle": "Ayuda de unix linux ",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "manLinux.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "echo",
+      "detalle": "Este comando se usa para mover algunos datos a un archivo.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "echoLinux.jpg"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "zip unzip",
+      "detalle": "Comprimir archivos",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "zipunzipLinux.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "hostname",
+      "detalle": "conocer el nombre de tu host/red y direccion IP",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "hostnameLinux.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "useradd / userdell",
+      "detalle": "Crear o eliminar usuarios en linux",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "useraddUserdellLinux.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Listar todos los servicios",
+      "detalle": "listar todos los servicios en Linux.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "listarServiciosLinux.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "listarServiciosLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "netstat",
+      "detalle": "Netstat es una utilidad de línea de comandos para Linux que imprime conexiones de red, tablas de enrutamiento",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "netstatLinux.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "netstatLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "for",
+      "detalle": "Recorre un listado de informacion",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "forLinux.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "forLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "if",
+      "detalle": "El condicional if es un comando que nos permite ejecutar una secuencia de comandos dependiendo de la condición especificada.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "ifLinux.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "ifLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "read",
+      "detalle": "El comando read, con el modificador -r, lo que permite ese comando es capturar la salida de jq. Puede funcionar como prompt",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "readLinux.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "readLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "shuf",
+      "detalle": "El shufcomando genera permutaciones aleatorias desde las líneas de entrada hasta la salida estándar (Escoge uno al azar) ",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "shufLinux.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "shufLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Comparaciones",
+      "detalle": "Comparaciones Numericas, de cadena y calculos matemáticos",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "ComparacionesNACLinux.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "ComparacionesNACLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "cowsay",
+      "detalle": "cowsay es un programa que genera imágenes artísticas ASCII de una vaca con un mensaje. ... También puede generar imágenes utilizando imágenes prefabricadas de otros animales",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "cowsayLinux.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "cowsayLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "sudo (SuperUser Do).",
+      "detalle": "Este comando te permite realizar tareas que requieren permisos administrativos o raíz. Sirve para elevar privilegios y ejecutar acciones como usuario root",
+      "link": []
+    },
+    {
+      "id": 37,
+      "name": "chown",
+      "detalle": "Este comando te permite cambiar o transferir la propiedad de un archivo al nombre de usuario especificado.",
+      "link": []
+    },
+    {
+      "id": 38,
+      "name": "ping",
+      "detalle": "Usa el comando ping para verificar tu estado de conectividad a un servidor.",
+      "link": []
+    },
+    {
+      "id": 39,
+      "name": "history",
+      "detalle": "Este comando te permite revisar los comandos que ingresaste anteriormente y ejecutarlos de nuevo.",
+      "link": []
+    },
+    {
+      "id": 40,
+      "name": "Comandos de linux",
+      "detalle": "Archivo con varios comandos de linux incluyendo los de esta pagina",
+      "link": []
+    },
+    {
+      "id": 41,
+      "name": "Instalar Ubunto Windows",
+      "detalle": "Subsistema de Windows para linux",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "InstalacionUbuntoWSL.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "InstalacionUbuntoWSLCodigo.txt"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Firewall ufw",
+      "detalle": "Utilizar el firewall en ubuntu o en WSL versión 2",
+      "link": [
+        {
+          "nombre": "Firewall ufw",
+          "archivo": "FirewallUfwLinux.txt"
+        }
+      ]
+    }
+  ]
+}

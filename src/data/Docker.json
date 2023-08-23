@@ -1,0 +1,343 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "name": "Docker Instalacion",
+      "detalle": "Instalar Doker",
+      "link": [
+        {
+          "nombre": "PPT Instalacion Linux",
+          "archivo": "DockerLinux.pdf"
+        },
+        {
+          "nombre": "PPT Instalacion Windows",
+          "archivo": "DockerWindows.pdf"
+        },
+        {
+          "nombre": "PPT Instalacion Mac",
+          "archivo": "DockerMac.pdf"
+        },
+        {
+          "nombre": "Docker Linux Codigo",
+          "archivo": "DockerLinux.txt"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Vocabulario de Docker y otros",
+      "detalle": "Conceptos que serán importantes que reconozcas para que te familiarices con ellos",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "DockerVocabulario.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "DockerVocabulario.txt"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Docker Registry",
+      "detalle": "El registro es como una estantería donde las imágenes se almacenan y están disponibles para extraerlas con el fin de compilar contenedores que ejecuten servicios o aplicaciones web",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "DockerRegistry.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "DockerRegistry.txt"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Dockerfile",
+      "detalle": "Es un archivo de texto simple con un conjunto de comandos o instrucciones. Se ejecutan sucesivamente para realizar acciones en la imagen base y crear una nueva imagen de la ventana acoplable",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "Dockerfile.pdf"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "Dockerfile.txt"
+        },
+        {
+          "nombre": "link3",
+          "archivo": "DockerHub.pdf"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Docker Hub",
+      "detalle": "Nos permite extraer y enviar imágenes de la ventana acoplable hacia y desde Docker Hub. P",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "DockerHub.pdf"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "DockerHub.txt"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Docker Networking",
+      "detalle": "Nos vamos a enfocar en el driver llamado bridge, ya que con el nuevo enfoque de Docker orientado a habilitar a los desarrolladores es el que mayoritariamente le darán uso en sus computadoras",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "DockerNetworking.pdf"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "DockerNetworkingAmbiente.pdf"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Docker Compose",
+      "detalle": "Docker Compose es una herramienta que permite simplificar el uso de Docker. A partir de archivos YAML es más sencillo crear contendores, conectarlos, habilitar puertos, volúmenes, etc. ",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "DockerCompose.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "DockerCompose.txt"
+        },
+        {
+          "nombre": "docker-compose.yml",
+          "archivo": "docker-compose.yml"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Docker Swarm",
+      "detalle": "Docker Swarm es una herramienta de orquestación de contenedores , lo que significa que permite al usuario administrar múltiples contenedores implementados en múltiples máquinas host.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "DockerSwarm.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "DockerSwarm.txt"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Mejores practicas en Docker",
+      "detalle": "Docker es una tecnología compleja y, como tal, hay muchísimos lugares en donde podemos implementar prácticas para mejorar la seguridad, performance o hasta hacernos la vida más sencilla. A continuación vamos a enfocarnos en algunas de las prácticas que nos van a beneficiar en nuestro rol como desarrolladores.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "MejoresPracticasDocker.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "MejoresPracticasDocker.txt"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "docker login",
+      "detalle": "iniciar sesión en Docker Hub mediante un comando",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "loginDocker.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "loginDocker.txt"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "docker search",
+      "detalle": "Buscar imágenes y repositorios públicos desde Docker Hub",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "searchDocker.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "searchDocker.txt"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "docker pull",
+      "detalle": "Descargar imágenes de repositorios públicos Docker Hub",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "pullDocker.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "pullDocker.txt"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Crear una imagen",
+      "detalle": "Docker lee las instrucciones de un Dockerfile y crea imágenes automáticamente.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "createImagenDocker.jpg"
+        },
+        {
+          "nombre": "codigo",
+          "archivo": "createImagenDocker.txt"
+        },
+        {
+          "nombre": "Crear Imagen y subirla dockerHub",
+          "archivo": "createImagenDockerHub.txt"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "docker image ls",
+      "detalle": "Podemos verificar que la imagen está creada con la siguiente línea de código:",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "ImagelsDocker.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "ImagelsDocker.txt"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "docker push",
+      "detalle": "Subir imagenes a Docker Hub",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "pushDocker.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "pushDocker.txt"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Imagen certificada por docker",
+      "detalle": "Una imagen solo puede ser certificada por Docker Hub si su contenido cumple con las reglas, estándares y leyes proporcionadas por Docker Hub.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "imgCertificadaDocker.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "imgCertificadaDocker.txt"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Imágenes populares en Docker Hub",
+      "detalle": "Hay muchas imágenes seleccionadas y optimizadas disponibles en Docker Hub. La popularidad de estas imágenes depende de varios factores, presencia en el mercado, calificaciones, puntajes de satisfacción, entre otros.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "imgPopularesDocker.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "imgPopularesDocker.txt"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "docker container run",
+      "detalle": "Le estamos diciendo al Daemon que ejecute un contenedor.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "containerRunDocker.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "containerRunDocker.txt"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Docker y microservicios",
+      "detalle": "Docker y microservicios",
+      "link": [
+        {
+          "nombre": "Introduccion",
+          "archivo": "EJDockerMicroserviciosIntroduccion.jpg"
+        },
+        {
+          "nombre": "JPG Deployando con Docker",
+          "archivo": "EJDockerMicroserviciosIntroduccionDeployando.jpg"
+        },
+        {
+          "nombre": "PPT Deployando con Docker",
+          "archivo": "EJDockerMicroserviciosIntroduccionDeployando.pdf"
+        },
+        {
+          "nombre": "Codigo y Link",
+          "archivo": "EJDockerMicroserviciosDeployando.txt"
+        },
+        {
+          "nombre": "Conclusión",
+          "archivo": "EJDockerMicroserviciosConclucionesDeployando.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "docker cp",
+      "detalle": "Copiar archivo dentro de un contenedor",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "DockerCpContainer.txt"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Varios comandos en docker",
+      "detalle": "Varios comandos en docker",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "varioscomandoDocker.pdf"
+        }
+      ]
+    }
+  ]
+}

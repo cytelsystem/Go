@@ -1,0 +1,1494 @@
+{
+  "results": [
+    {
+      "id": 94,
+      "name": "BASES DE DATOS ORIGINALES",
+      "detalle": "Diferentes bases de datos originales de prueba",
+      "link": [
+        {
+          "nombre": "spotify.sql",
+          "archivo": "spotify.sql"
+        },
+        {
+          "nombre": "DhPrestamos.sql",
+          "archivo": "DhPrestamos.sql"
+        },
+        {
+          "nombre": "DhTube.sql",
+          "archivo": "DhTube.sql"
+        },
+        {
+          "nombre": "AdventureWorks.sql",
+          "archivo": "AdventureWorks.sql"
+        },
+        {
+          "nombre": "EMarket.sql",
+          "archivo": "EMarket.sql"
+        },
+        {
+          "nombre": "movies.sql",
+          "archivo": "movies.sql"
+        },
+        {
+          "nombre": "Musimundos.sql",
+          "archivo": "Musimundos.sql"
+        },
+        {
+          "nombre": "sakila.sql",
+          "archivo": "sakila.sql"
+        },
+        {
+          "nombre": "cajero.sql",
+          "archivo": "cajero.sql"
+        },
+        {
+          "nombre": "dhremotework.sql",
+          "archivo": "dhremotework.sql"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "INSTALACIÓN",
+      "detalle": "Instalación y configuracion Base de Datos",
+      "link": [
+        {
+          "nombre": "Instalación",
+          "archivo": "InstalacionMysql.pdf"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "InstalacionMysql.txt"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "SHOW DATABASE",
+      "detalle": "Muestra las bases de datos que existen",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "SHOWDATABASE.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "SHOWDATABASE.txt"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "SELECT DATABASE();",
+      "detalle": "CURRENT_USER()  CURRENT_ROLE()  VERSION()",
+      "link": [
+        {
+          "nombre": "Codigo ",
+          "archivo": "SELECTDATABASE.txt"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "SHOW TABLES",
+      "detalle": "Lista las tablas de la base de datos por consola",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "SHOWTABLES.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "SHOWTABLES.txt"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "SHOW COLUMNS",
+      "detalle": "Lista los campos de una tabla de la base de datos por consola",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "SHOWCOLUMNS.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "SHOWCOLUMNS.txt"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "OPERADORES",
+      "detalle": "Operadores que se pueden uilizar para las diferentes consultas",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "OPERADORES.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "OPERADORES.txt"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Tipo de datos",
+      "detalle": "Por ejemplo, si queremos almacenar la edad de una persona, lo más lógico es que esa columna solo permita guardar números. En cambio, si queremos almacenar un correo electrónico, lo más seguro es que la columna tenga la facultad de guardar información alfanumérica.",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "pptTipoDatoMysql.pdf"
+        },
+        {
+          "nombre": "Glosario de Tipo de dato",
+          "archivo": "GlosarioTipoDatoMysql.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "CREATE DATABASE",
+      "detalle": "Creacion de una base de datos sin las tablas",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "CREATEDATABASE.jpg"
+        },
+        {
+          "nombre": "codigo",
+          "archivo": "CREATEDATABASE.txt"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "CREATE TABLE",
+      "detalle": "Creacion de las tablas despues de tener la base de datos creada",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "CREATETABLE.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "CREATETABLE.txt"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "ALTER TABLE",
+      "detalle": "Modifica la estructura de la tabla (Los campos)",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "ALTERTABLE.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "ALTERTABLE.txt"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "DROP",
+      "detalle": "DROP TABLE borrará la tabla o columna (DDL) que le especifiquemos en la sentencia",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "DROP.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "DROP.txt"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "TRUNCATE",
+      "detalle": "TRUNCATE TABLE elimina los datos dentro de una tabla, pero no la tabla en sí. Y trunca un número al número especificado de posiciones decimales.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "TRUNCATE.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "TRUNCATE.txt"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "ESTRUCTURA DE UNA QUERY",
+      "detalle": "Como se estructura la solicitara de una consulta a la base de datos",
+      "link": [
+        {
+          "nombre": "Estructura",
+          "archivo": "mysqlEstructura.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "SELECT",
+      "detalle": "Permite realizar consultas a una tabla de la base de datos",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "SELECT.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "SELECT.txt"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "INSERT INTO",
+      "detalle": "Permite adicionar registros a una tabla de la base de datos",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "INSERT.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "INSERT.txt"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "UPDATE",
+      "detalle": "UPDATE modificará los registros existentes de una tabla.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "UPDATE.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "UPDATE.txt"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "DELETE",
+      "detalle": "Con DELETE podemos borrar información de una tabla.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "DELETE.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "DELETE.txt"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "WHERE",
+      "detalle": "Permite filtrar datos en una consultas de una tabla de la base de datos",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "WHERE.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "WHERE.txt"
+        },
+        {
+          "nombre": "Where y OrderBy",
+          "archivo": "PPT WhereOrderBy.pdf"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "ORDER BY",
+      "detalle": "Permite ordenar datos por un campo en una consultas de una tabla de la base de datos",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "ORDER_BY.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "ORDER_BY.txt"
+        },
+        {
+          "nombre": "Where y OrderBy",
+          "archivo": "PPT WhereOrderBy.pdf"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "BETWEEN",
+      "detalle": "Permite filtrar datos en una consultas de una tabla de la base de datos",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "BETWEEN.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "BETWEEN.txt"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "LIKE",
+      "detalle": "Permite utilizar comodines % para filtrar en una consulta de una tabla de la base de datos",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "LIKE.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "LIKE.txt"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "LIMIT",
+      "detalle": "Limita la cantidad de registros que se pueden mostrar en una consulta a la tabla de la base de datos",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "LIMIT.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "LIMIT.txt"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "PPTLimitOffset.pdf"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "OFFSET",
+      "detalle": "Permite Hacer paginado con cantidad de registros a mostrar utilizando LIMIT",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "OFFSET.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "OFFSET.txt"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "PPTLimitOffset.pdf"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "ALIAS AS",
+      "detalle": "Permite colocar un alias a una columna o tabla en una consulta",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "AS.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "AS.txt"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "PPTAlias.pdf"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "IN",
+      "detalle": "Permite filtrar en una consulta por datos completos",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "IN.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "IN.txt"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "COUNT()",
+      "detalle": "Devuelve un único resultado indicando la cantidad de filas/registros que cumplen con el criterio.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "COUNT.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "COUNT.txt"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "AVG()",
+      "detalle": "AVG (average) devuelve un único resultado indicando el promedio de una columna cuyo tipo de datos debe ser numérico.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "AVG.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "AVG.txt"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "SUM()",
+      "detalle": "SUM (suma) devuelve un único resultado indicando la suma de una columna cuyo tipo de datos debe ser numérico.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "SUM.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "SUM.txt"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "MIN()",
+      "detalle": "MIN devuelve un único resultado indicando el valor mínimo de una columna cuyo tipo de datos debe ser numérico.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "MIN.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "MIN.txt"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "MAX()",
+      "detalle": "MAX devuelve un único resultado indicando el valor máximo de una columna cuyo tipo de datos debe ser numérico.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "MAX.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "MAX.txt"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "GROUP BY",
+      "detalle": "GROUP BY se usa para agrupar los registros de la tabla resultante de una consulta por una o más columnas.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "GROUPBY.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "GROUPBY.txt"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "PPTGroupBy.pdf"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "HAVING",
+      "detalle": "Cumple la misma función que WHERE, a diferencia de que HAVING permite la implementación de alias y funciones de agregación en las condiciones de la selección de datos.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "HAVING.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "HAVING.txt"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "PPTHaving.pdf"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Table reference",
+      "detalle": "Consultas a más de una tabla de forma sencilla",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "TABLEREFERENCE.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "TABLEREFERENCE.txt"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "INNER JOIN",
+      "detalle": "INNER JOIN nos permite hacer consultas a distintas tablas y unir los resultados.",
+      "link": [
+        {
+          "nombre": "Estructura",
+          "archivo": "MYSQLJOIN.jpg"
+        },
+        {
+          "nombre": "link1",
+          "archivo": "INNERJOIN.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "INNERJOIN.txt"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "PPTJoin.pdf"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "LEFT JOIN",
+      "detalle": "LEFT JOIN (Izquierdo) nos permite hacer consultas a distintas tablas y unir y mostrar los resultados incluyendo campos de la tabla izquierda que esten en (null)",
+      "link": [
+        {
+          "nombre": "Estructura",
+          "archivo": "MYSQLJOIN.jpg"
+        },
+        {
+          "nombre": "link1",
+          "archivo": "LEFT_JOIN.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "LEFT_JOIN.txt"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "PPTJoin.pdf"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "LEFT Excluding JOIN",
+      "detalle": "LEFT JOIN nos devuelve únicamente los registros de una primera tabla (A), excluyendo los registros que cumplan con la condición indicada en la cláusula ON",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "PPTJoin.pdf"
+        },
+        {
+          "nombre": "codigo",
+          "archivo": "leftexludingmysql.txt"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "RIGHT JOIN",
+      "detalle": "RIGHT JOIN (Derecho) entre dos tablas devuelve todos los registros de la segunda tabla, incluso cuando los registros no cumplan la condición indicada en la cláusula ON.",
+      "link": [
+        {
+          "nombre": "Estructura",
+          "archivo": "MYSQLJOIN.jpg"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "PPTJoin.pdf"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "RIGHT Excluding JOIN ",
+      "detalle": "RIGHT Excluding JOIN nos devuelve únicamente los registros de una segunda tabla (B), excluyendo los registros que cumplan con la condición indicada en la cláusula ON.",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "PPTJoin.pdf"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "RIGHTExcludingJOIN.txt"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "DISTINCT",
+      "detalle": "DISTINCT devuelve un listado en donde cada fila es distinta.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "DISTINCT.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "DISTINCT.txt"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "CONCAT",
+      "detalle": "Usamos CONCAT para concatenar dos o más expresiones:",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "CONCAT.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "CONCAT.txt"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "COALESCE",
+      "detalle": "Usamos COALESCE para sustituir el valor NULL en una sucesión de expresiones o campos.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "COALESCE.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "COALESCE.txt"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "DATEDIFF",
+      "detalle": "Usamos DATEDIFF para devolver la diferencia entre dos fechas, número de días entre dos valores de fecha.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "DATEDIFF.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "DATEDIFF.txt"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "TIMEDIFF",
+      "detalle": "Usamos TIMEDIFF para devolver la diferencia entre dos horarios, tomando como granularidad el intervalo especificado.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "TIMEDIFF.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "TIMEDIFF.txt"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "TIMESTAMPDIFF",
+      "detalle": "Devuelve un valor después de restar una expresión de fecha y hora de otra.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "TIMESTAMPDIFFMySQL.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "TIMESTAMPDIFFMySQL.txt"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "EXTRACT",
+      "detalle": "Usamos EXTRACT para extraer partes de una fecha:",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "EXTRACT.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "EXTRACT.txt"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "REPLACE",
+      "detalle": "Forma compacta de crear o expresar nuestras funciones.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "REPLACE_MYSQL.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "REPLACE_MYSQL.txt"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "DATE_FORMAT",
+      "detalle": "Usamos DATE_FORMAT para cambiar el formato de salida de una fecha según una condición dada.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "DATE_FORMAT.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "DATE_FORMAT.txt"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "DATE_ADD",
+      "detalle": "Usamos DATE_ADD para sumar o agregar un período de tiempo a un valor de tipo DATE o DATETIME.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "DATE_ADD.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "DATE_ADD.txt"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "ADDDATE",
+      "detalle": "Agrega un intervalo de hora / fecha a una fecha y luego devuelve la fecha. Similar a DATE_ADD",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "adddateMysql.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "adddateMysql.txt"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "CURDATE",
+      "detalle": "Devuelve la fecha actual.",
+      "link": [
+        {
+          "nombre": "Code",
+          "archivo": "curdateMysql.txt"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "LAST_DAY",
+      "detalle": "Ultimo dia del mes (extrae el último día del mes para una fecha determinada).",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "LASTDAYMysql.txt"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "TIME_TO_SEC()",
+      "detalle": "Convierte a segundos",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "TIMETOSECMYSQL.txt"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "DATE_SUB",
+      "detalle": "Usamos DATE_SUB para restar o quitar un período de tiempo a un valor de tipo DATE o DATETIME.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "DATE_SUB.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "DATE_SUB.txt"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "CASE",
+      "detalle": "Usamos CASE para evaluar condiciones y devolver la primera condición que se cumpla. En este ejemplo, la tabla resultante tendrá 4 columnas: id, titulo, rating, calificacion. Esta última columna mostrará los valores: Mala, Regular, Buena y Excelente; según el rating de la película.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "CASE_MYSQL.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "CASE_MYSQL.txt"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "LENGTH()",
+      "detalle": "Usamos LENGTH para contar la cantidad de caracteres y filtrar en el WHERE.  \"LENGTH(nombre) en select adiciona un campo con la cantidad de caracteres\"",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "LENGTH_MYSQL.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "LENGTH_MYSQL.txt"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "LEFT()",
+      "detalle": "Extrae la cantidad de caracteres indicada de una columna, comenzando desde la izquierda",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "LEFT.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "LEFT.txt"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "RIGHT",
+      "detalle": "Extrae varios caracteres de una cadena comenzando desde la derecha.",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "rightMYSQL.txt"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "SEC_TO_TIME",
+      "detalle": "Convertir Milisegundos a minutos",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "SEC_TO_TIME.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "SEC_TO_TIME.txt"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "ROUND",
+      "detalle": "Redondea un numero",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "ROUND.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "ROUND.txt"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "FORMAT",
+      "detalle": "Formatea un numero y se le pueden incluir la cantidad de decimales",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "FORMAT.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "FORMAT.txt"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "LOCATE",
+      "detalle": "Retorna el index o posición de un caractes o numero",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "LOCATE.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "LOCATE.txt"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "GREATEST",
+      "detalle": "Devuelve el mayor numero (3, 12, 34, 8, 25) = 34",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "GREATESTMYSQL.txt"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "LEAST",
+      "detalle": "Devuelve el valor más pequeño de la lista de argumentos. LEAST(3, 12, 34, 8, 25) = 3",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "LEASTMYSQL.txt"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "MOD Operador Modulo Mysql",
+      "detalle": "Devuelve el resto de un número dividido por otro número.",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "MODMYSQL.txt"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "POW",
+      "detalle": "Devuelve el valor de un número elevado a la potencia de otro número",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "POWMYSQL.txt"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "SQRT",
+      "detalle": "Devuelve la raíz cuadrada de un número.",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "SQRTMYSQL.txt"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "CHARACTER_LENGTH",
+      "detalle": "Devuelve la longitud de la cadena (Cantidad de caracteres de un texto o  numero)",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "CHARACTERLENGTHMYSQL.txt"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "LOWER",
+      "detalle": "convierte una cadena en minúsculas",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "LOWERMYSQL.txt"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "UPPER",
+      "detalle": "Convierte una cadena en mayúsculas",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "UPPERMYSQL.txt"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "SUBSTR",
+      "detalle": "extrae una subcadena de una cadena —comenzando en cualquier posición—",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "SUBSTRMYSQL.txt"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "IS NULL o IS NOT NULL",
+      "detalle": "Verificar campos null y con informacion o vacios ='' ",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "ISNULLoISNOTNULL.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "ISNULLoISNOTNULL.txt"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "INDICES",
+      "detalle": "Un índice dentro de una base de datos es una estructura de datos que mejora la velocidad de las consultas,",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "INDICES.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "INDICES.txt"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "INDICESMYSQL.pdf"
+        },
+        {
+          "nombre": "Tipos de búsqueda FullText",
+          "archivo": "TiposBusquedaFullText.pdf"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "VISTAS",
+      "detalle": "Una vista es un elemento de la base de datos que facilita el acceso a los datos de las tablas.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "VISTA.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "VISTA.txt"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "CONEXION ACCESS A MYSQL",
+      "detalle": "Crear conexión y utilizar base de datos Mysql desde Access",
+      "link": [
+        {
+          "nombre": "Link1",
+          "archivo": "MysqlConexionAccess.jpg"
+        },
+        {
+          "nombre": "Driver Mysql Access",
+          "archivo": "MysqlConexionAccess.txt"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Base de Datos II",
+      "detalle": "Especialización den BackEnd",
+      "link": [
+        {
+          "nombre": "Link1",
+          "archivo": "EJProgramaBasedatos.jpg"
+        },
+        {
+          "nombre": "Programa Base de Datos II",
+          "archivo": "EJProgramaBasedatosDocumento.pdf"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "FUNCIONES ALMACENADAS",
+      "detalle": "Una función almacenada en MySQL es una rutina creada para tomar uno o más parámetros, realizarles algún procedimiento y retornar los resultados en un salida.",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "PPTFuncionesAlmacenadasMysql.pdf"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "CodigoFuncionesAlmacenadas.txt"
+        },
+        {
+          "nombre": "Desafio",
+          "archivo": "PDFdesafioFuncionesAlmacenadas.pdf"
+        },
+        {
+          "nombre": "EjemploJpg",
+          "archivo": "JPGFuncionesAlmacenadas.jpg"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "STORED PROCEDURES (PROCEDIMIENTOS ALMACENADOS)",
+      "detalle": "Los SP (stored procedure) son un conjunto de instrucciones en formato SQL que se almacenan, compilan y ejecutan dentro del servidor de bases de datos.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "PROCEDURE.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "PROCEDURE.txt"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "PPTProcecimientosAlmacenados.pdf"
+        },
+        {
+          "nombre": "PROCEDIMIENTOS ALMACENADOS VS FUNCIONES",
+          "archivo": "MysqlProcedimientosAlmacenadosVSFunciones.jpg"
+        },
+        {
+          "nombre": "Desafio",
+          "archivo": "PDFDesafíoProcedimientosAlmacenados.pdf"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "FUNCIONES DE MySQL",
+      "detalle": "Son funciones ya configuradas del sistema que podemos utilizar",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "FuncionesDeMySQL.pdf"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "FUNCIONES DE VENTANA Y DE INFORMACION",
+      "detalle": "Una función de ventana realiza un cálculo en un conjunto de filas de la tabla que de alguna manera están relacionadas con la fila actual. Esto es comparable al tipo de cálculo que se puede hacer con una función de agregación —AVG, COUNT, SUM, etc.—.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "MysqlFuncionesVetanaInformacion.jpg"
+        },
+        {
+          "nombre": "Consigna",
+          "archivo": "MysqlFuncionesVetanaInformacionConsigna.pdf"
+        },
+        {
+          "nombre": "Desafio2",
+          "archivo": "C05A04CVDesafio2.sql"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "name": "ROW_COUNT",
+      "detalle": "Devueve el numero de filas actualizadas",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "ROWCOUNTMYSQL.txt"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "SELECT LAST_INSERT_ID();",
+      "detalle": "Muestra el ultimo ID insertado en una tabla",
+      "link": [
+        {
+          "nombre": "Codigo",
+          "archivo": "SELECTLASTINSERTIDMYSQL.txt"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "VARIABLES",
+      "detalle": "Variables que se utilizan en MySql",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "MysqlVariables.pdf"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "CONDICIONALES",
+      "detalle": "IF  CASE IF Anidados",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "MySqlCondicionales.jpg"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "MySqlCondicionales.pdf"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "REPETITIVAS",
+      "detalle": "WHILE REPEAT LOOP (Estructuras repetitivas)",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "MySqlRepetitivas.jpg"
+        },
+        {
+          "nombre": "Consigna",
+          "archivo": "MySqlRepetitivasConsigna.pdf"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "CURSORES",
+      "detalle": "Cursor es un mecanismo el cual nos permite procesar fila por fila el resultado de una consulta como un forEach en programacion",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "MySqlCursores.pdf"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "MySqlCursoresTablas.txt"
+        },
+        {
+          "nombre": "Consigna",
+          "archivo": "MySqlCursoresTablasConsigna.pdf"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "name": "TABLAS TEMPORALES",
+      "detalle": "Crea un nueva tabla temporal apartir de una consulta y su tiempo de vida es lo que dure la seccion",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "MySqlTablasTemporales.pdf"
+        },
+        {
+          "nombre": "Consigna",
+          "archivo": "MySqlCursoresTablasConsigna.pdf"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "MySqlTablasTemporales.txt"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "name": "MANEJO DE ERRORES",
+      "detalle": "Manejo de Errores en MySql",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "MySqlManejoErrores.pdf"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "MySqlManejoErroresCodigo.txt"
+        },
+        {
+          "nombre": "Consigna",
+          "archivo": "MySqlManejoErroresConsigna.pdf"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "name": "SUBCONSULTAS",
+      "detalle": "Hacer una subconsulta dentro de una consulta y utilizar el resultado",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "SUBCONSULTASMYSQL.jpg"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "SUBCONSULTASMYSQL.pdf"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "SUBCONSULTASMYSQLCodigo.txt"
+        },
+        {
+          "nombre": "Consigna",
+          "archivo": "SUBCONSULTASMYSQLConsigna.pdf"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "name": "TRIGGERS (Desencadenantes)",
+      "detalle": "Los triggers son objetos de base de datos que nos sirven para ejecutar código SQL luego de que se haya ejecutado una sentencia de Insert, Update o Delete sobre una tabla específica.",
+      "link": [
+        {
+          "nombre": "PPT",
+          "archivo": "TRIGGERSMYSQL.pdf"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "TRIGGERSMYSQLCodigo.txt"
+        },
+        {
+          "nombre": "Consigna",
+          "archivo": "TRIGGERSMYSQLConsigna.pdf"
+        },
+        {
+          "nombre": "Consigna",
+          "archivo": "SUBCONSULTASMYSQLConsigna.pdf"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "name": "TRANSACCIONES",
+      "detalle": "Conjunto de instrucciones SQL, agrupadas lógicamente, que o bien se ejecutan todas sobre la base de datos o bien no se ejecuta ninguna. Una transferencia bancaria entre dos cuentas supone un ejemplo claro para ilustrar el concepto de transacción.",
+      "link": [
+        {
+          "nombre": "JPG",
+          "archivo": "TransaccionesMYSQL.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "TransaccionesMYSQLCodigo.txt"
+        },
+        {
+          "nombre": "Consigna",
+          "archivo": "TransaccionesMYSQLConsigna.pdf"
+        },
+        {
+          "nombre": "Consigna",
+          "archivo": "SUBCONSULTASMYSQLConsigna.pdf"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "name": "OPTIMIZACION INFORMES",
+      "detalle": "Ahora, vamos a explorar los informes de optimización que están disponibles en Workbench. Aprenderán qué hacer y cuándo intervenir para mantener su base de datos en buen estado, según la información del Schema Inspector.",
+      "link": [
+        {
+          "nombre": "Schema Inspetor",
+          "archivo": "SchemainspetoroPTIMIZACIONmYSQL.PDF"
+        },
+        {
+          "nombre": "Table Inspetor",
+          "archivo": "TableinspetorPTIMIZACIONmYSQL.PDF"
+        },
+        {
+          "nombre": "JPG Informes",
+          "archivo": "informesOptirmizacionMysql.jpg"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "name": "HERRAMIENTAS DE OPTIMIZACION",
+      "detalle": "Hablaremos sobre las herramientas de profiling. Aprenderán a monitorear y a diagnosticar problemas en el desempeño de las consultas. Además de eso, sabrán qué hacer para corregirlos en el menor tiempo posible.",
+      "link": [
+        {
+          "nombre": "PPT Herramientas profile",
+          "archivo": "HerramientasOptimizacionMysql.pdf"
+        },
+        {
+          "nombre": "Herramienta DBeaver",
+          "archivo": "HerramientaDBeaverOptimizacionMysql.pdf"
+        },
+        {
+          "nombre": "PPT Uso DBeaver",
+          "archivo": "HerramientaDBeaverUsoMysql.pdf"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "name": "PLANES DE EJECUCION",
+      "detalle": "Herramientas de perfil hablaremos sobre las herramientas de profiling. Aprenderán a monitorear y diagnosticar problemas de rendimiento en sus consultas. Además, sabrán qué hacer para corregirlos en el menor tiempo posible.",
+      "link": [
+        {
+          "nombre": "Sentencia Explain",
+          "archivo": "SentenciaExplainPLANESEJECUCIONMYSQL.pdf"
+        },
+        {
+          "nombre": "Plan de Ejecución Visual",
+          "archivo": "PlanesEjecuciónVisualMysql.pdf"
+        },
+        {
+          "nombre": "Diagrama de Explain Visual",
+          "archivo": "PDFpersonalizadoDiagramaExplainVisual.pdf"
+        }
+      ]
+    }
+  ]
+}

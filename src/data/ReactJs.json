@@ -1,0 +1,643 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "name": "Instalación",
+      "detalle": "Herramientas y commandos instalacion entorno de react",
+      "link": [
+        {
+          "nombre": "instalacion",
+          "archivo": "InstalacionReactJs.txt"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Configuracion del proyecto en react",
+      "detalle": "Creacion y configuracion de carpetas que requerimos para nuestro proyecto",
+      "ejemplo1": "NoHayInformacion.jpg",
+      "ejemplo2": "configuracionProyectoReact.txt",
+      "ejemplo3": "NoHayInformacion.jpg",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "configuracionProyectoReact.txt"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Instalacion de Sass en react",
+      "detalle": "Instalacion de el preprocesador Sass para dar estilos a nuestro proyecto",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "InstalacionSassReact.txt"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Instalar Bootstrap ReactJS",
+      "detalle": "Instalar bootstrap para utilizar herramientas de bootstrap",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "installBootstrapReactJS.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "installBootstrapReactJS.txt"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Git publicación proyecto gh-pages",
+      "detalle": "Deploy en producción",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "gitHubDeployReactJS.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "gitHubDeployReactJS.txt"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Crear un elemento sin utilizar react",
+      "detalle": "Crear un elemento sin utilizar react",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "CreatElement.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "CreatElement.txt"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Glosario de terminos 1 Utilizados en react",
+      "detalle": "Descripcion de algunas palabras y conceptos utilizados en react",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "GlosarioReactJS.pdf"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "JSX en React",
+      "detalle": "JSX es una extensión a ECMAScript que provee una forma más conveniente (syntactic sugar) de crear elementos que llaman a la función React.createElement. JSX, es una axis similar a XML/HTML que extiende ECMAScript.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "JSXReactJS.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "JSXReglasReactJS.pdf"
+        },
+        {
+          "nombre": "link3",
+          "archivo": "JSXReactJS.pdf"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "CDN Links React",
+      "detalle": "Crear contenido utilizando react de forma basica con CDN",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "CDNLinksReactJS.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "CDNLinksReactJS.txt"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Crear un elemento utilizando ReactJS",
+      "detalle": "Crear un elemento utilizando ReactJS",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "CreatElementReactJS.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "CreatElementReactJS.txt"
+        },
+        {
+          "nombre": "link3",
+          "archivo": "CreatElementReactJS.pdf"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Crear un Componente ReactJS",
+      "detalle": "Crear componente utilizando ReactJS",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "CreatComponenteReactJS.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "CreatComponenteReactJS.txt"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Props en Componente ReactJS",
+      "detalle": "Enviar informacion como parametro a los componentes",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "PropsComponenteReactJS.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "PropsComponenteReactJS.txt"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Enlazando eventos",
+      "detalle": "Enlazando eventos",
+      "link": [
+        {
+          "nombre": "Imagen Ejm1",
+          "archivo": "EventosReactJS.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "EventosReactJS.txt"
+        },
+        {
+          "nombre": "EventosComponenteClase",
+          "archivo": "EventosComponenteClaseReactJS.pdf"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Componentes controlados vs. no controlados (Formularios)",
+      "detalle": "Componentes controlados en formularios input  ",
+      "link": [
+        {
+          "nombre": "Imagen Ejm1",
+          "archivo": "ComponentesControladosImg1ReactJS.jpg"
+        },
+        {
+          "nombre": "onSubmit y onChange",
+          "archivo": "ComponentesControladosSubmitChangeReactJ.pdf"
+        },
+        {
+          "nombre": "Formik y SweetAlert",
+          "archivo": "ComponentesControladosFormikSweetAlertReactJ.pdf"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Glosario de terminos 2",
+      "detalle": "Terminos Ciclo de vida, eventos etc",
+      "link": [
+        {
+          "nombre": "GlosarioTerminos",
+          "archivo": "GlosarioTerminosCicloVidaReactJS.pdf"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Manejo de estados this.state / this.setState",
+      "detalle": "Componentes pueden producir su propia información para ser utilizada en props",
+      "link": [
+        {
+          "nombre": "Imagen",
+          "archivo": "ManejoEstadosReactJS.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "ManejoEstadosReactJS.txt"
+        },
+        {
+          "nombre": "PptState",
+          "archivo": "ManejoEstadosReactJS.pdf"
+        },
+        {
+          "nombre": "Componentes stateful",
+          "archivo": "statefulReactJS.pdf"
+        },
+        {
+          "nombre": "EliminarStateArray",
+          "archivo": "EliminarStateArrayreact.txt"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Levantamiento del estado",
+      "detalle": "Utilizar la informacion para pasarla como props a los diferentes componentes",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "LevantamientoEstadoReactJS.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "LevantamientoEstadoReactJS.txt"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Lista de componentes",
+      "detalle": "Generar varios componentes en forma de lista",
+      "ejemplo1": "ListaDeComponentesReactJS.jpg",
+      "ejemplo2": "ListaDeComponentesReactJS.txt",
+      "ejemplo3": "NoHayInformacion.jpg",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "ListaDeComponentesReactJS.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "ListaDeComponentesReactJS.txt"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "React Router",
+      "detalle": "Mejora la respuesta al traer solamente la diferencia de información cuando se hace la solicitud",
+      "link": [
+        {
+          "nombre": "Instalacion",
+          "archivo": "ReactRouterInstalacion.txt"
+        },
+        {
+          "nombre": "imagen",
+          "archivo": "ReactRouterJS.jpg"
+        },
+        {
+          "nombre": "Código",
+          "archivo": "ReactRouterJS.txt"
+        },
+        {
+          "nombre": "Pdf 1",
+          "archivo": "ReactRouterJSPdf1.pdf"
+        },
+        {
+          "nombre": "Dinamico",
+          "archivo": "ReactRouterJSDinamico.jpg"
+        },
+        {
+          "nombre": "Pdf 2",
+          "archivo": "ReactRouterJSPdf2.pdf"
+        },
+        {
+          "nombre": "Enrutamiento Dinámico",
+          "archivo": "ReactRouterJSPdf3.pdf"
+        },
+        {
+          "nombre": "Pdf 4",
+          "archivo": "ReactRouterJSPdf4.pdf"
+        },
+        {
+          "nombre": "useParams()",
+          "archivo": "ReactRouterJSuseParams.jpg"
+        },
+        {
+          "nombre": "Tips y recomedaciones",
+          "archivo": "ReactRouterJSTips.pdf"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Layout React",
+      "detalle": "Permite que un componente se pueda mostrar en diferentes paginas sin escribirlo varias veses",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "LayoutReactJS.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "LayoutReactJS.txt"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Ciclo de vida de un componente",
+      "detalle": "Montaje, Actualizacion y desmontage. useEffect, componentDidMount, componentDidUpdate, componentWillUnmount ",
+      "link": [
+        {
+          "nombre": "Imagen Ejm1",
+          "archivo": "CicloVidaComponenteimg1ReactJS.jpg"
+        },
+        {
+          "nombre": "Métodos mas usados",
+          "archivo": "CicloVidaComponenteImg2ReactJS.jpg"
+        },
+        {
+          "nombre": "Otros métodos",
+          "archivo": "CicloVidaComponenteImg3ReactJS.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "CicloVidaComponenteReactJS.txt"
+        },
+        {
+          "nombre": "Ejm. Pokemon de Clase",
+          "archivo": "CicloVidaComponenteEjmPokemonClaseReactJS.txt"
+        },
+        {
+          "nombre": "Ejm. Pokemon funcional",
+          "archivo": "CicloVidaComponenteEjmPokemonfunctionReactJS.txt"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "setTimeout",
+      "detalle": "El método setTimeout () llama a una función después de una cantidad de milisegundos.",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "setTimeoutReactJS.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "setTimeoutReactJS.txt"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Consumir información Json en ReactJs",
+      "detalle": "Cargar información de un archivo json y mostrar en el navegador",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "JsonReactJS.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "JsonReactJS.txt"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "API en ReactJs",
+      "detalle": "Manejo de informacion desde una Api",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "ApiReactJS.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "ApiReactJS.txt"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Solicitando datos (GET) ReactJs",
+      "detalle": "Solicitar informacion a una api con Get",
+      "ejemplo1": "ApiGetReactJS.jpg",
+      "ejemplo2": "ApiGetReactJS.txt",
+      "ejemplo3": "NoHayInformacion.jpg",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "ApiGetReactJS.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "ApiGetReactJS.txt"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Instalacion de Hash Md5",
+      "detalle": "Generar hash para utilizar en las aplicaciones",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "InstalacionHashMd5.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "InstalacionHashMd5.txt"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Enviar datos POST a la Api",
+      "detalle": "Enviar un formulario lleno y registrar datos en la api",
+      "link": [
+        {
+          "nombre": "Imagen",
+          "archivo": "EnviarDatosPOSTReactJs.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "EnviarDatosPOSTReactJs.txt"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Apis con Axios",
+      "detalle": "Axios es una biblioteca third party (hay que instalarla). Es un cliente HTTP que admite la API Promise y que facilita la configuración y ejecución —tanto desde el lado del cliente como del lado del servidor— a través de un cliente ",
+      "link": [
+        {
+          "nombre": "Fetch y Axios",
+          "archivo": "ApiFetchAxiosReactJs.pdf"
+        },
+        {
+          "nombre": "Instalacion",
+          "archivo": "ApiFetchAxiosReactJs.txt"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "ApiFetchAxiosCodigoReactJs.txt"
+        },
+        {
+          "nombre": "Ejemplo Axios",
+          "archivo": "ApiFetchAxiosEjemploReactJs.pdf"
+        },
+        {
+          "nombre": "Llamados API",
+          "archivo": "ApiFetchAxiosLlamadosReactJs.pdf"
+        },
+        {
+          "nombre": "Glosario APIs",
+          "archivo": "ApiFetchAxiosGlosarioReactJs.pdf"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Servidor temporal Pruebas Api",
+      "detalle": "Crear un servidor en el puerto 3001 Pruebas reales api",
+      "link": [
+        {
+          "nombre": "link",
+          "archivo": "ServPruebasApiReactJs.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "ServPruebasApiReactJs.txt"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Offcanvas con react",
+      "detalle": "Crear un pagina con boton hamburguesa y menu interno que se muestra al oprimir",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "OffcanvasReact.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "OffcanvasReact.txt"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "style",
+      "detalle": "Poner stylos directamente en el html",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "styleReact.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "styleReact.txt"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "require",
+      "detalle": "Icluir imagenes y texto sin import",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "requireReact.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "requireReact.txt"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Estructurar un objeto",
+      "detalle": "Estructurar un objeto, otra forma de consumir objetos",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "EstructurarObjetoReact.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "EstructurarObjetoReact.txt"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Modulos CSS",
+      "detalle": "Modulos CSS (Escribir estilos en archivos, consumuidos como objetos JS. Genera dinamicamente nombre del selector o clase)",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "ModulosCSSReact.jpg"
+        },
+        {
+          "nombre": "Codigo",
+          "archivo": "ModulosCSSReact.txt"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Componentes Dinamicos (styled-components)",
+      "detalle": "Escribir estilos directamente dentro del componente como si fuera codigo en una funcion",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "componentesDinamicosStyledComponentsReact.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "componentesDinamicosStyledComponentsReact.txt"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Hooks",
+      "detalle": "Un Hook es una función especial que permite ‘conectarse’ a características de React. Los Hooks son básicamente funciones. Permiten a componentes funcionales incorporar características de React",
+      "link": [
+        {
+          "nombre": "Descripción",
+          "archivo": "hooksDescripcionReactJs.pdf"
+        },
+        {
+          "nombre": "codigo",
+          "archivo": "hookCodigoReactJs.txt"
+        },
+        {
+          "nombre": "useState",
+          "archivo": "hookUseStateReactJs.jpg"
+        },
+        {
+          "nombre": "useEffect",
+          "archivo": "hookuseEffectReactJs.jpg"
+        },
+        {
+          "nombre": "Glosario Hook:",
+          "archivo": "hookGlosarioReactJs.pdf"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "",
+      "detalle": "",
+      "link": []
+    }
+  ]
+}

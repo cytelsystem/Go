@@ -1,0 +1,247 @@
+{
+    "results": [
+
+
+        {
+            "id": 1,
+            "name": "Pilares del Design Thinking",
+            "detalle": "5 recomendaciónes para pensar como diseñadores",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "PilaresDesignThinking.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "PilaresDesignThinking.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 2,
+            "name": "Mindset del design thinking",
+            "detalle": "Mindset del design thinking",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "MindsetDesignThinking.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "MindsetDesignThinking.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 3,
+            "name": "Diferentes modelos de desing thinking",
+            "detalle": "Diferentes modelos de desing thinking",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "ModelosDesingThinking.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "ModelosDesingThinking.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 4,
+            "name": "Faces de Design thinking",
+            "detalle": "Proceso de design thinking de Stanford Design School",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "FacesDesignthinking.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "FacesDesignthinking.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 5,
+            "name": "Métodos cuantitativos",
+            "detalle": "Es la base del proceso y está centrado en las personas y en los usuarios",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "MetodosCuantitativos.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "MetodosCuantitativos.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 6,
+            "name": "Métodos cualitativos",
+            "detalle": "Existen diferentes fuentes de información numérica que nos permiten conocer sobre el universo de las personas. Los métodos cuantitativos nos posibilitan responder las preguntas deductivas y medibles: ¿Qué sucede? ¿Cuándo sucede? ¿Dónde sucede?",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "MetodosCualitativos.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "MetodosCualitativos.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 7,
+            "name": "Tips para realizar una encuesta",
+            "detalle": "Tips para realizar una encuesta",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "TipsEncuesta.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "TipsEncuesta.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 8,
+            "name": "Mapa de actores",
+            "detalle": "Forma visual de cada uno de los participantes que intervienen durante todo el proceso",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "MapaActores.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "MapaActores.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 9,
+            "name": "Empatía",
+            "detalle": "Es la base del proceso y está centrado en las personas y en los usuarios",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "empatia.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "empatia.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 10,
+            "name": "Definición",
+            "detalle": "Dar claridad y enfoque a la información recopilada",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "definicion.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "definicion.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 11,
+            "name": "Ideación",
+            "detalle": "Proceso de diseño y la generación de múltiples ideas",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "ideacion.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "ideacion.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 12,
+            "name": "Prototipo",
+            "detalle": "Generar elementos como dibujos, artefactos y objetos con la intención de responder preguntas que nos acerquen a la solución final,",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "prototipo.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "prototipo.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 13,
+            "name": "Testear / Evaluar",
+            "detalle": "Solicitar feedback y opiniones sobre los prototipos que se han creado de los mismos usuarios y colegas",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "TestearEvaluar.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "TestearEvaluar.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 14,
+            "name": "Trabajo final integrador",
+            "detalle": "Trabajo final integrador en grupo",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "TrabajoFinalIntegradorDesignThinking.pdf"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "TrabajoFinalIntegradorDesignThinking.txt"
+                }
+            ]
+
+        },
+        {
+            "id": 15,
+            "name": "Caracteristicas Design Thinking Efectivo",
+            "detalle": "Trabajo final integrador en grupo",
+            "link": [
+                {
+                    "nombre": "link1",
+                    "archivo": "CaracteristicasDesignThinkerEfectivo.jpg"
+                },
+                {
+                    "nombre": "link2",
+                    "archivo": "CaracteristicasDesignThinkerEfectivo.txt"
+                }
+            ]
+
+        }
+
+    ]
+}

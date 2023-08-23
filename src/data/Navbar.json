@@ -1,0 +1,169 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "name": "Configuracion",
+      "Url": "Configuraciones"
+    },
+    {
+      "id": 2,
+      "name": "Metodologias de Trabajo",
+      "Url": "MetodologiasTrabajo"
+    },
+    {
+      "id": 3,
+      "name": "Design Thinking",
+      "Url": "DesignThinking"
+    },
+    {
+      "id": 4,
+      "name": "Diseño UX-UI",
+      "Url": "DisenoUXUI"
+    },
+    {
+      "id": 5,
+      "name": "GestionProducto",
+      "Url": "GestionProducto"
+    },
+    {
+      "id": 6,
+      "name": "Html",
+      "Url": "Html"
+    },
+    {
+      "id": 7,
+      "name": "Css",
+      "Url": "Css"
+    },
+    {
+      "id": 8,
+      "name": "Mysql",
+      "Url": "Mysql"
+    },
+    {
+      "id": 9,
+      "name": "JavaScript Node",
+      "Url": "JavaScriptNode"
+    },
+    {
+      "id": 10,
+      "name": "Testing I",
+      "Url": "Testing"
+    },
+    {
+      "id": 11,
+      "name": "Testing II",
+      "Url": "TestingII"
+    },
+    {
+      "id": 12,
+      "name": "Java",
+      "Url": "Java"
+    },
+    {
+      "id": 13,
+      "name": "BackEnd",
+      "Url": "BackEnd"
+    },
+    {
+      "id": 14,
+      "name": "ReactJs",
+      "Url": "ReactJs"
+    },
+    {
+      "id": 15,
+      "name": "Front-End II",
+      "Url": "FrontEndII"
+    },
+    {
+      "id": 16,
+      "name": "Infraestructura I",
+      "Url": "InfraestructuraI"
+    },
+    {
+      "id": 17,
+      "name": "Linux",
+      "Url": "Linux"
+    },
+    {
+      "id": 18,
+      "name": "PowerShell",
+      "Url": "PowerShell"
+    },
+    {
+      "id": 19,
+      "name": "Git / GitHub",
+      "Url": "GitHub"
+    },
+    {
+      "id": 20,
+      "name": "Python",
+      "Url": "Python"
+    },
+    {
+      "id": 21,
+      "name": "Docker",
+      "Url": "Docker"
+    },
+    {
+      "id": 22,
+      "name": "AWS",
+      "Url": "aws"
+    },
+    {
+      "id": 23,
+      "name": "Vagrant",
+      "Url": "Vagrant"
+    },
+    {
+      "id": 24,
+      "name": "JUnit",
+      "Url": "JUnit"
+    },
+    {
+      "id": 25,
+      "name": "MongoDB",
+      "Url": "MongoDB"
+    },
+    {
+      "id": 26,
+      "name": "English",
+      "Url": "English"
+    },
+    {
+      "id": 27,
+      "name": "DataAnalytics",
+      "Url": "DataAnalytics"
+    },
+    {
+      "id": 28,
+      "name": "Posicionamiento Profesional",
+      "Url": "PosicionamientoProfesional"
+    },
+    {
+      "id": 29,
+      "name": "GestionProductosII",
+      "Url": "GestionProductosII"
+    },
+    {
+      "id": 30,
+      "name": "InfraestructuraII",
+      "Url": "InfraestructuraII"
+    },
+    {
+      "id": 31,
+      "name": "InfraestructuraIII",
+      "Url": "InfraestructuraIII"
+    },
+    {
+      "id": 32,
+      "name": "BackEndIIIGo",
+      "Url": "BackEndIIIGo"
+    },
+    {
+      "id": 33,
+      "name": "Kubernetes",
+      "Url": "Kubernetes"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "name": "Presentacion del Taller",
+      "detalle": "¿Qué vas a encontrar en el Taller Gestión de Productos Digitales I?",
+      "link": [
+        {
+          "nombre": "Donde Estamos",
+          "archivo": "GestionProductoInicio.jpg"
+        },
+        {
+          "nombre": "Modulos",
+          "archivo": "gestionDeProductoModulos.jpg"
+        },
+        {
+          "nombre": "FrameWork Scrum",
+          "archivo": "GPFrameWorkScrum.jpg"
+        },
+        {
+          "nombre": "Email Contratación",
+          "archivo": "GPCartaContratacion.jpg"
+        },
+        {
+          "nombre": "Requisitos y funciones",
+          "archivo": "TrabajoPracticoIntegrador.pdf"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "El Producto",
+      "detalle": "Definimos así a un producto o servicio que existe a través de un software y ofrece algún tipo de utilidad.. ",
+      "link": [
+        {
+          "nombre": "Donde Estamos",
+          "archivo": "GestionDeProductosProductoDigitalDondeEstamos.jpg"
+        },
+        {
+          "nombre": "Qué es un producto digital",
+          "archivo": "GestionDeProductosProductoDigital.jpg"
+        },
+        {
+          "nombre": "Ciclo de vida del producto JPG",
+          "archivo": "GestionDeProductoCicloDeVida.jpg"
+        },
+        {
+          "nombre": "Ciclo de vida del producto PPT",
+          "archivo": "FasesCicloVidaProductoDigital.pdf"
+        },
+        {
+          "nombre": "Bibliografía consultada",
+          "archivo": "CicloVidaProductoBibliografíaconsultada.pdf"
+        },
+        {
+          "nombre": "Consigna",
+          "archivo": "GestionDeProductosProductoConsigna.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Agile Inceptión",
+      "detalle": "Es un conjunto de técnicas que permiten a los equipos empezar a desarrollar un producto de manera coherente y eficaz.",
+      "link": [
+        {
+          "nombre": "Donde Estamos",
+          "archivo": "GestionProductoAgileInceptionDondeEstamos.jpg"
+        },
+        {
+          "nombre": "Visión del cliente sobre el producto",
+          "archivo": "VisiónClienteSobreProducto.jpg"
+        },
+        {
+          "nombre": "Agile inception",
+          "archivo": "GestionProductoAgileInception.jpg"
+        },
+        {
+          "nombre": "Técnicas enfocadas en el porqué (¿Por qué estoy acá?, Elevator pitch, Vision Box, Qué sí, qué no , La comunidad)",
+          "archivo": "GestionProductoTécnicasEnfocadasenelPorque.pdf"
+        },
+        {
+          "nombre": "Técnicas enfocadas en el cómo",
+          "archivo": "GestionProductoTecnicasEnfocadasenelComo.pdf"
+        },
+        {
+          "nombre": "Recapitulando",
+          "archivo": "GestionProductoRecapitulando.pdf"
+        },
+        {
+          "nombre": "Consigna",
+          "archivo": "GestionProductoAgileInceptionConsigna.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Impact Mapping",
+      "detalle": "Impact Mapping es una metodología que propone concentrar esfuerzos en lo realmente importante, en hacer las preguntas correctas para lograr determinar con precisión qué es aquello que debe conseguirse para lograr las metas deseadas.",
+      "link": [
+        {
+          "nombre": "Donde estamos",
+          "archivo": "GPImpactMappingDondesEstamos.jpg"
+        },
+        {
+          "nombre": "PPT",
+          "archivo": "GPImpactMappingPPT.pdf"
+        },
+        {
+          "nombre": "Respondiendo las preguntas correctas",
+          "archivo": "GPImpactMappingPPTRespondiendoPreguntasCorrectas.pdf"
+        },
+        {
+          "nombre": "Cómo comienza el proceso",
+          "archivo": "GPImpactMappingPPTcrearImpactMapping.pdf"
+        },
+        {
+          "nombre": "Recapitulando y Primer Deadline TPI",
+          "archivo": "GPImpactMappingRecapitulando.jpg"
+        },
+        {
+          "nombre": "Consigna",
+          "archivo": "GPImpactMappingConsigna.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Lean Startup",
+      "detalle": "Metodología Lean startup. Esta filosofía tiene por objetivo reducir el riesgo en el lanzamiento de nuestro producto, permitiendo que el propio mercado nos guíe hacia el éxito. Una vez abordado, estaremos preparados para continuar hacia el camino de la construcción del producto.",
+      "link": [
+        {
+          "nombre": "¿Dónde estamos?",
+          "archivo": "LeanStartupDondeEstamosGestionProducto.jpg"
+        },
+        {
+          "nombre": "Lean startup",
+          "archivo": "LeanStartupGestionProducto.jpg"
+        },
+        {
+          "nombre": "MVP y MMP",
+          "archivo": "MVPyMMPGestionProducto.pdf"
+        },
+        {
+          "nombre": "Lean model canvas",
+          "archivo": "LeanModelCanvasGestionProducto.jpg"
+        },
+        {
+          "nombre": "Recapitulando",
+          "archivo": "RecapitulandoLeanStartupGestionProducto.jpg"
+        },
+        {
+          "nombre": "Consigna",
+          "archivo": "MVPyMMPGestionProductoConsigna.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Lanzamiento",
+      "detalle": "Lanzamiento del producto",
+      "link": [
+        {
+          "nombre": "¿Dónde estamos?",
+          "archivo": "DondeEstamosLanzamientoProducto.jpg"
+        },
+        {
+          "nombre": "JPG Roadmap",
+          "archivo": "JPGRoadmapLanzamiento.jpg"
+        },
+        {
+          "nombre": "PPT Roadmap",
+          "archivo": "PPTRoadmapLanzamiento.pdf"
+        },
+        {
+          "nombre": "Release plan y Burndown chart",
+          "archivo": "PPTReleaseplan.pdf"
+        },
+        {
+          "nombre": "Burndownchart",
+          "archivo": "Burndownchart.webm"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Product backlog",
+      "detalle": "El product backlog (o pila de producto) es un listado de todas las tareas que se pretenden hacer durante el desarrollo de un proyecto",
+      "link": [
+        {
+          "nombre": "¿Dónde estamos?",
+          "archivo": "ProductbacklogDondeEstamos.jpg"
+        },
+        {
+          "nombre": "Aprendiendo a gestionar el Backlog",
+          "archivo": "AprendiendoGestionarProductBacklog.pdf"
+        },
+        {
+          "nombre": " JPG Historias de usuario",
+          "archivo": "ProductbacklogDHistoriasUsuario.jpg"
+        },
+        {
+          "nombre": "PPT Priorización Historias de usuario",
+          "archivo": "ProductbacklogDHistoriasUsuarioPriorización.pdf"
+        },
+        {
+          "nombre": "Requerimientos del cliente",
+          "archivo": "ProductbacklogRequerimientosCliente.jpg"
+        },
+        {
+          "nombre": "Recapitulando",
+          "archivo": "ProductbacklogRecapitulando.jpg"
+        }
+      ]
+    }
+  ]
+}
