@@ -3,27 +3,47 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"net/http"
+	"os"
+	"github.com/gin-gonic/gin"
 )
 
-type Person struct {
-	Nombre    string `json:"nombre"`
-	Apellidos string `json:"apellidos"`
-	Edad      string `json:"edad"`
-	Profesion string `json:"profesion"`
+var producto []Producto //Aqui estan los productos a mostrar
+
+type Producto struct {
+	Id              int     `json:"Id"`
+	Nombre          string  `json:"Nombre"`
+	Precio          float64 `json:"Precio"`
+	Stock           int     `json:"Stock"`
+	Codigo          string  `json:"Codigo"`
+	Publicado       bool    `json:"Publicado"`
+	FechaDeCreacion string  `json:"FechaDeCreacion"`
 }
 
 func main() {
-	jsonData := `{"nombre":"Hector","apellidos":"Moreno","edad":"47 años","profesion":"programador"}`
+	router := gin.Default()
+	router.GET("/productos", todosLosProductos)
 
-	var person Person
-	err := json.Unmarshal([]byte(jsonData), &person)
-	if err != nil {
-		fmt.Println("Error:", err)
+	router.Run(":8080")
+
+}
+
+func readFile(name string) {
+	file, err1 := os.ReadFile(name)
+	if err1 != nil {
+		fmt.Println("Error al leer el archivo")
 		return
 	}
 
-	fmt.Println("Nombre:", person.Nombre)
-	fmt.Println("Apellidos:", person.Apellidos)
-	fmt.Println("Edad:", person.Edad)
-	fmt.Println("Profesión:", person.Profesion)
+	err2 := json.Unmarshal(file, &producto)
+	if err2 != nil {
+		fmt.Println("Error:", err2)
+		return
+	}
+
+}
+
+func todosLosProductos(c *gin.Context) {
+	readFile("./productos.json")
+	c.JSON(http.StatusOK, producto)
 }
