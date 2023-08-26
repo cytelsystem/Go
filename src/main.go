@@ -1,49 +1,26 @@
+// main.go
 package main
 
 import (
-	"encoding/json"
-	"fmt"
-	"net/http"
-	"os"
+	"github.com/cytelsystem/Go/internal/productos"
 	"github.com/gin-gonic/gin"
 )
 
-var producto []Producto //Aqui estan los productos a mostrar
-
-type Producto struct {
-	Id              int     `json:"Id"`
-	Nombre          string  `json:"Nombre"`
-	Precio          float64 `json:"Precio"`
-	Stock           int     `json:"Stock"`
-	Codigo          string  `json:"Codigo"`
-	Publicado       bool    `json:"Publicado"`
-	FechaDeCreacion string  `json:"FechaDeCreacion"`
-}
-
 func main() {
-	router := gin.Default()
-	router.GET("/productos", todosLosProductos)
+	r := gin.Default()
 
-	router.Run(":8080")
+	// Agregar productos de prueba
+	productos.Products = append(productos.Products,
+		productos.Product{ID: 1, Name: "Cheese - St.Andre", Quantity: 60, CodeValue: "S73191A", IsPublished: true, Expiration: "12/04/2022", Price: 50.15},
+		productos.Product{ID: 2, Name: "Example Product 2", Quantity: 150, CodeValue: "C12345B", IsPublished: true, Expiration: "01/01/2023", Price: 25.99},
+		productos.Product{ID: 3, Name: "Sample Item", Quantity: 400, CodeValue: "D98765X", IsPublished: false, Expiration: "05/15/2023", Price: 10.5},
+	)
 
-}
+	r.GET("/products", productos.GetAllProducts)
+	r.GET("/products/:id", productos.GetProductByID)
+	r.GET("/productparams", productos.GetProductParams)
+	r.GET("/buy", productos.BuyProduct)
+	r.GET("/searchbyquantity", productos.SearchByQuantity)
 
-func readFile(name string) {
-	file, err1 := os.ReadFile(name)
-	if err1 != nil {
-		fmt.Println("Error al leer el archivo")
-		return
-	}
-
-	err2 := json.Unmarshal(file, &producto)
-	if err2 != nil {
-		fmt.Println("Error:", err2)
-		return
-	}
-
-}
-
-func todosLosProductos(c *gin.Context) {
-	readFile("./productos.json")
-	c.JSON(http.StatusOK, producto)
+	r.Run(":8080")
 }
