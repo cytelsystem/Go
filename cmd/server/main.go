@@ -1,44 +1,36 @@
 package main
 
 import (
-	"encoding/json"
-	"os"
+	"net/http"
 
-	"github.com/bootcamp-go/Consignas-Go-Web.git/cmd/server/handler"
-	"github.com/bootcamp-go/Consignas-Go-Web.git/internal/domain"
-	"github.com/bootcamp-go/Consignas-Go-Web.git/internal/product"
+	handlerProducto "github.com/aldogayaladh/go-web/cmd/server/handler/producto"
+	"github.com/aldogayaladh/go-web/internal/domain/producto"
 	"github.com/gin-gonic/gin"
 )
 
+const (
+	puerto = ":8080"
+)
+
 func main() {
-	var productsList = []domain.Product{}
-	loadProducts("products.json", &productsList)
 
-	repo := product.NewRepository(productsList)
-	service := product.NewService(repo)
-	productHandler := handler.NewProductHandler(service)
+	router := gin.Default()
 
-	r := gin.Default()
+	repository := producto.NewRepository()
+	service := producto.NewService(repository)
+	controlador := handlerProducto.NewControladorProducto(service)
 
-	r.GET("/ping", func(c *gin.Context) { c.String(200, "pong") })
-	products := r.Group("/products")
-	{
-		products.GET("", productHandler.GetAll())
-		products.GET(":id", productHandler.GetByID())
-		products.GET("/search", productHandler.Search())
-		products.POST("", productHandler.Post())
-	}
-	r.Run(":8080")
-}
+	router.GET("/ping", func(ctx *gin.Context) {
+		ctx.JSON(http.StatusOK, gin.H{
+			"mensaje": "pong",
+		})
+	})
 
-// loadProducts carga los productos desde un archivo json
-func loadProducts(path string, list *[]domain.Product) {
-	file, err := os.ReadFile(path)
-	if err != nil {
+	router.GET("/productos", controlador.GetAll())
+	router.DELETE("/productos/:id", controlador.Delete())
+
+	if err := router.Run(puerto); err != nil {
 		panic(err)
 	}
-	err = json.Unmarshal([]byte(file), &list)
-	if err != nil {
-		panic(err)
-	}
+
 }
