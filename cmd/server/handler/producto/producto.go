@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/aldogayaladh/go-web/internal/domain/producto"
+	"github.com/cytelsystem/EjemploMetodoCRUD/internal/domain/producto"
 	"github.com/gin-gonic/gin"
 )
 

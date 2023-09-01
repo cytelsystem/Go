@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	handlerProducto "github.com/aldogayaladh/go-web/cmd/server/handler/producto"
-	"github.com/aldogayaladh/go-web/internal/domain/producto"
+	handlerProducto "github.com/cytelsystem/EjemploMetodoCRUD/cmd/server/handler/producto"
+	"github.com/cytelsystem/EjemploMetodoCRUD/internal/domain/producto"
 	"github.com/gin-gonic/gin"
 )
 
