@@ -1,4 +1,4 @@
-module github.com/aldogayaladh/go-web
+module github.com/cytelsystem/EjemploMetodoCRUD
 
 go 1.20
 
