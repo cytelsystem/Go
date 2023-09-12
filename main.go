@@ -55,6 +55,35 @@ func main() {
 		})
 	})
 
+	router.GET("/productparams", func(ctx *gin.Context) {
+		ID, _ := strconv.Atoi(ctx.Query("id"))
+		Name := ctx.Query("name")
+		Quantity, _ := strconv.Atoi(ctx.Query("quantity"))
+		CodeValue := ctx.Query("codeValue")
+		IsPublished, _ := strconv.ParseBool(ctx.Query("isPublished"))
+		ExpirationStr := ctx.Query("expiration")
+		Price, _ := strconv.ParseFloat(ctx.Query("price"), 64)
+
+		product := producto.Producto{
+			ID:          ID,
+			Name:        Name,
+			Quantity:    Quantity,
+			CodeValue:   CodeValue,
+			IsPublished: IsPublished,
+		}
+
+		// Maneja la fecha de expiración (Expiration)
+		expirationTime, err := time.Parse("2006-01-02", ExpirationStr)
+		if err == nil {
+				product.Expiration = expirationTime
+		}
+
+		product.Price = Price
+
+    // Devuelve el producto en formato JSON
+    ctx.JSON(http.StatusOK, product)
+	})
+
 	router.Run(port)
 }
 
@@ -92,7 +121,6 @@ func loadData() []producto.Producto {
 	return productos
 
 }
-
 
 func addToContext(ctx context.Context, user string) context.Context {
 	nuevoContexto := context.WithValue(ctx, "user", user)
