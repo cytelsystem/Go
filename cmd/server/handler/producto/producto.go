@@ -2,6 +2,7 @@ package producto
 
 import (
 	"net/http"
+	"strconv"
 
 	"github.com/cytelsystem/Go/tree/practicaHJM/internal/domain/producto"
 	"github.com/gin-gonic/gin"
@@ -17,6 +18,8 @@ func NewControladorProducto(service producto.Service) *Controlador {
 	}
 }
 
+//**************************Metodos***************************//
+//Get
 func (c *Controlador) GetAll() gin.HandlerFunc {
 	return func(ctx *gin.Context) {
 		productos, err := c.service.GetAll(ctx)
@@ -27,9 +30,34 @@ func (c *Controlador) GetAll() gin.HandlerFunc {
 		}
 
 		ctx.JSON(http.StatusOK, gin.H{
-			"data" : productos, 
+			"data" : productos,
 		})
 
+	}
+
+}
+
+//Delete
+func (c *Controlador) Delete() gin.HandlerFunc {
+	return func(ctx *gin.Context) {
+		id, err := strconv.Atoi(ctx.Param("id"))
+		if err != nil {
+			ctx.JSON(http.StatusBadRequest, gin.H{
+				"Mensaje": "id invalido",
+			})
+			return
+		}
+
+		err = c.service.Delete(ctx, id)
+		if err != nil{
+			ctx.JSON(http.StatusInternalServerError, gin.H{
+				"Mensaje": "No se pudo eliminar el producto",
+			})
+			return
+		}
+		ctx.JSON(http.StatusNoContent, gin.H{
+			"Mensaje": "Producto Eliminado",
+		})
 	}
 
 }

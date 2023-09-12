@@ -25,8 +25,9 @@ func main() {
 			"mensage": "pong",
 		})
 	})
-	
+
 	router.GET("/productos", controlador.GetAll())
+	router.DELETE("/productos/:id", controlador.Delete())
 
 	if err := router.Run(port) ; err != nil {
 		panic(err)

@@ -10,6 +10,7 @@ type service struct {
 }
 type Service interface {
 	GetAll(ctx context.Context) ([]Producto, error)
+	Delete(ctx context.Context, id int) (error)
 }
 
 func NewService(repository Repository) Service {
@@ -18,6 +19,9 @@ func NewService(repository Repository) Service {
 	}
 }
 
+
+//***************Metodos interface service***************************//
+//Get
 func (s *service) GetAll(ctx context.Context) ([]Producto, error) {
 	productos, err := s.repository.GetAll(ctx)
 	if err != nil {
@@ -26,4 +30,14 @@ func (s *service) GetAll(ctx context.Context) ([]Producto, error) {
 	}
 
 	return productos, nil
+}
+
+//Delete
+func (s *service) Delete(ctx context.Context, id int) (error) {
+	err := s.repository.Delete(ctx, id)
+	if err != nil {
+		log.Println("log de error borrado de producto", err.Error())
+		return ErrNofFound
+	}
+	return nil
 }

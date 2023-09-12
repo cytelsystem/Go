@@ -8,6 +8,7 @@ import (
 
 var (
 	ErrEmptyList = errors.New("la lista de productos esta vacia")
+	ErrNofFound = errors.New("Producto no encontrado")
 )
 
 
@@ -45,6 +46,7 @@ var (
 
 type Repository interface {
 	GetAll(ctx context.Context) ([]Producto, error)
+	Delete(ctx context.Context, id int) (error)
 }
 
 type repository struct {
@@ -58,10 +60,21 @@ func NewRepository() Repository {
 
 }
 
-//Metodo de la interface
+//**********Metodos de la interface**************************************
+//Get
 func (r *repository) GetAll(ctx context.Context) ([]Producto, error) {
 	if len(r.db) < 1 {
 		return []Producto{}, ErrEmptyList
 	}
 	return r.db, nil
+}
+//Delete
+func (r *repository) Delete(ctx context.Context, id int) (error) {
+	for key, producto := range r.db {
+		if producto.ID == id {
+			r.db = append(r.db[:key], r.db[key+1:]...)
+			return nil
+		}
+	}
+	return ErrNofFound
 }
