@@ -36,6 +36,30 @@ func (c *Controlador) GetAll() gin.HandlerFunc {
 	}
 
 }
+//PorID
+func (c *Controlador) GetByID() gin.HandlerFunc {
+	return func(ctx *gin.Context) {
+		id, err := strconv.Atoi(ctx.Param("id"))
+		if err != nil {
+			ctx.JSON(http.StatusBadRequest, gin.H{
+				"Mensaje": "ID de producto inválido",
+			})
+			return
+		}
+
+		producto, err := c.service.GetByID(ctx, id)
+		if err != nil {
+			ctx.JSON(http.StatusNotFound, gin.H{
+				"Mensaje": "Producto no encontrado",
+			})
+			return
+		}
+
+		ctx.JSON(http.StatusOK, gin.H{
+			"data": producto,
+		})
+	}
+}
 
 //Delete
 func (c *Controlador) Delete() gin.HandlerFunc {

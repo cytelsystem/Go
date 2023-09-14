@@ -3,14 +3,14 @@ package producto
 import (
 	"context"
 	"errors"
+	"sync"
 	"time"
 )
 
 var (
 	ErrEmptyList = errors.New("la lista de productos esta vacia")
-	ErrNofFound = errors.New("Producto no encontrado")
+	ErrNofFound  = errors.New("Producto no encontrado")
 )
-
 
 var (
 	productos = []Producto{
@@ -46,11 +46,13 @@ var (
 
 type Repository interface {
 	GetAll(ctx context.Context) ([]Producto, error)
-	Delete(ctx context.Context, id int) (error)
+	GetByID(ctx context.Context, id int) (*Producto, error)
+	Delete(ctx context.Context, id int) error
 }
 
 type repository struct {
-	db []Producto
+	db    []Producto
+	mutex sync.Mutex
 }
 
 func NewRepository() Repository {
@@ -60,16 +62,33 @@ func NewRepository() Repository {
 
 }
 
-//**********Metodos de la interface**************************************
-//Get
+// **********Metodos de la interface**************************************
+// Get
 func (r *repository) GetAll(ctx context.Context) ([]Producto, error) {
 	if len(r.db) < 1 {
 		return []Producto{}, ErrEmptyList
 	}
 	return r.db, nil
 }
-//Delete
-func (r *repository) Delete(ctx context.Context, id int) (error) {
+
+// GetByID
+func (r *repository) GetByID(ctx context.Context, id int) (*Producto, error) {
+	r.mutex.Lock()
+	defer r.mutex.Unlock()
+
+	// Buscar el producto por su ID
+	for _, p := range r.db {
+		if p.ID == id {
+			return &p, nil
+		}
+	}
+
+	// Si no se encuentra el producto, devuelve un error
+	return nil, ErrNofFound
+}
+
+// Delete
+func (r *repository) Delete(ctx context.Context, id int) error {
 	for key, producto := range r.db {
 		if producto.ID == id {
 			r.db = append(r.db[:key], r.db[key+1:]...)
