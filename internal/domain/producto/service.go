@@ -13,6 +13,7 @@ type service struct {
 type Service interface {
 	GetAll(ctx context.Context) ([]Producto, error)
 	GetByID(ctx context.Context, id int) (*Producto, error)
+	Update(ctx context.Context, id int, producto *Producto) (*Producto, error)
 	Delete(ctx context.Context, id int) error
 }
 
@@ -48,6 +49,22 @@ func (s *service) GetByID(ctx context.Context, id int) (*Producto, error) {
 	}
 
 	return producto, nil
+}
+
+// Update
+func (s *service) Update(ctx context.Context, id int, producto *Producto) (*Producto, error) {
+	// Bloquear el acceso concurrente al servicio.
+	s.mutex.Lock()
+	defer s.mutex.Unlock()
+
+	// Llama al método correspondiente en el repositorio para actualizar el producto por su ID.
+	productoActualizado, err := s.repository.Update(ctx, id, producto)
+	if err != nil {
+		log.Println("Error al actualizar producto en el servicio:", err.Error())
+		return nil, err
+	}
+
+	return productoActualizado, nil
 }
 
 // Delete

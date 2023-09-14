@@ -60,6 +60,40 @@ func (c *Controlador) GetByID() gin.HandlerFunc {
 		})
 	}
 }
+//Update
+func (c *Controlador) Update() gin.HandlerFunc {
+	return func(ctx *gin.Context) {
+		id, err := strconv.Atoi(ctx.Param("id"))
+		if err != nil {
+			ctx.JSON(http.StatusBadRequest, gin.H{
+				"Mensaje": "ID de producto inválido",
+			})
+			return
+		}
+
+		// Decodifica los datos del producto actualizado desde la solicitud JSON
+		var productoActualizado producto.Producto
+		if err := ctx.BindJSON(&productoActualizado); err != nil {
+			ctx.JSON(http.StatusBadRequest, gin.H{
+				"Mensaje": "Datos de actualización inválidos",
+			})
+			return
+		}
+
+		// Llama al método correspondiente en el servicio para actualizar el producto
+		producto, err := c.service.Update(ctx, id, &productoActualizado)
+		if err != nil {
+			ctx.JSON(http.StatusInternalServerError, gin.H{
+				"Mensaje": "No se pudo actualizar el producto",
+			})
+			return
+		}
+
+		ctx.JSON(http.StatusOK, gin.H{
+			"data": producto,
+		})
+	}
+}
 
 //Delete
 func (c *Controlador) Delete() gin.HandlerFunc {

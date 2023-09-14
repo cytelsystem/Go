@@ -47,6 +47,7 @@ var (
 type Repository interface {
 	GetAll(ctx context.Context) ([]Producto, error)
 	GetByID(ctx context.Context, id int) (*Producto, error)
+	Update(ctx context.Context, id int, producto *Producto) (*Producto, error)
 	Delete(ctx context.Context, id int) error
 }
 
@@ -80,6 +81,25 @@ func (r *repository) GetByID(ctx context.Context, id int) (*Producto, error) {
 	for _, p := range r.db {
 		if p.ID == id {
 			return &p, nil
+		}
+	}
+
+	// Si no se encuentra el producto, devuelve un error
+	return nil, ErrNofFound
+}
+
+
+//Update
+func (r *repository) Update(ctx context.Context, id int, producto *Producto) (*Producto, error) {
+	r.mutex.Lock()
+	defer r.mutex.Unlock()
+
+	// Buscar el producto por su ID
+	for key, p := range r.db {
+		if p.ID == id {
+			// Actualizar los campos del producto
+			r.db[key] = *producto
+			return producto, nil
 		}
 	}
 
