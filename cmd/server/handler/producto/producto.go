@@ -119,3 +119,38 @@ func (c *Controlador) Delete() gin.HandlerFunc {
 	}
 
 }
+
+//Patch
+func (c *Controlador) Patch() gin.HandlerFunc {
+	return func(ctx *gin.Context) {
+			id, err := strconv.Atoi(ctx.Param("id"))
+			if err != nil {
+					ctx.JSON(http.StatusBadRequest, gin.H{
+							"Mensaje": "ID de producto inválido",
+					})
+					return
+			}
+
+			// Decodifica los campos de actualización desde la solicitud JSON
+			var campos map[string]interface{}
+			if err := ctx.BindJSON(&campos); err != nil {
+					ctx.JSON(http.StatusBadRequest, gin.H{
+							"Mensaje": "Datos de actualización inválidos",
+					})
+					return
+			}
+
+			// Llama al método correspondiente en el servicio para aplicar la actualización de campos.
+			producto, err := c.service.Patch(ctx, id, campos)
+			if err != nil {
+					ctx.JSON(http.StatusInternalServerError, gin.H{
+							"Mensaje": "No se pudo actualizar el producto",
+					})
+					return
+			}
+
+			ctx.JSON(http.StatusOK, gin.H{
+					"data": producto,
+			})
+	}
+}

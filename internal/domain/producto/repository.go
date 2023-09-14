@@ -3,6 +3,7 @@ package producto
 import (
 	"context"
 	"errors"
+	"log"
 	"sync"
 	"time"
 )
@@ -49,6 +50,7 @@ type Repository interface {
 	GetByID(ctx context.Context, id int) (*Producto, error)
 	Update(ctx context.Context, id int, producto *Producto) (*Producto, error)
 	Delete(ctx context.Context, id int) error
+	Patch(ctx context.Context, id int, campos map[string]interface{}) (*Producto, error)
 }
 
 type repository struct {
@@ -88,8 +90,7 @@ func (r *repository) GetByID(ctx context.Context, id int) (*Producto, error) {
 	return nil, ErrNofFound
 }
 
-
-//Update
+// Update
 func (r *repository) Update(ctx context.Context, id int, producto *Producto) (*Producto, error) {
 	r.mutex.Lock()
 	defer r.mutex.Unlock()
@@ -116,4 +117,45 @@ func (r *repository) Delete(ctx context.Context, id int) error {
 		}
 	}
 	return ErrNofFound
+}
+
+// Patch
+func (r *repository) Patch(ctx context.Context, id int, campos map[string]interface{}) (*Producto, error) {
+	// Obtén el producto por su ID utilizando el método GetByID
+	producto, err := r.GetByID(ctx, id)
+	if err != nil {
+		return nil, err
+	}
+
+	// Actualiza los campos del producto con los valores proporcionados en el mapa "campos"
+	for campo, valor := range campos {
+		switch campo {
+		case "name":
+			producto.Name = valor.(string)
+		case "quantity":
+			producto.Quantity = int(valor.(float64))
+		case "code_value":
+			producto.CodeValue = valor.(string)
+		case "is_published":
+			producto.IsPublished = valor.(bool)
+		case "expiration":
+			expirationStr := valor.(string)
+			expirationTime, err := time.Parse("2006-01-02", expirationStr)
+			if err != nil {
+				log.Println("Fech no tiene el formato adecuado")
+			}
+			producto.Expiration = expirationTime
+
+		case "price":
+			producto.Price = valor.(float64)
+		}
+	}
+
+	// Llama al método correspondiente en el repositorio para aplicar la actualización.
+	_, err = r.Update(ctx, id, producto)
+	if err != nil {
+		return nil, err
+	}
+
+	return producto, nil
 }

@@ -30,6 +30,7 @@ func main() {
 	router.GET("/productos/:id", controlador.GetByID())
 	router.PUT("/productos/:id", controlador.Update())
 	router.DELETE("/productos/:id", controlador.Delete())
+	router.PATCH("/productos/:id", controlador.Patch())
 
 	if err := router.Run(port) ; err != nil {
 		panic(err)
