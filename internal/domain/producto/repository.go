@@ -51,6 +51,7 @@ type Repository interface {
 	Update(ctx context.Context, id int, producto *Producto) (*Producto, error)
 	Delete(ctx context.Context, id int) error
 	Patch(ctx context.Context, id int, campos map[string]interface{}) (*Producto, error)
+	Create(ctx context.Context, producto *RequestProducto) (*Producto, error)
 }
 
 type repository struct {
@@ -66,6 +67,31 @@ func NewRepository() Repository {
 }
 
 // **********Metodos de la interface**************************************
+
+//Post
+
+func (r *repository) Create(ctx context.Context, requestProducto *RequestProducto) (*Producto, error) {
+	nuevoProducto := &Producto{
+			Name:        requestProducto.Name,
+			Quantity:    requestProducto.Quantity,
+			CodeValue:   requestProducto.CodeValue,
+			Expiration:  requestProducto.Expiration,
+			IsPublished: requestProducto.IsPublished,
+			Price:       requestProducto.Price,
+	}
+
+	// Genera un nuevo ID para el producto (puedes usar alguna lógica para asignar un ID único).
+	nuevoID := len(r.db) + 1
+	nuevoProducto.ID = nuevoID
+
+	// Agrega el nuevo producto a la lista.
+	r.db = append(r.db, *nuevoProducto)
+
+	return nuevoProducto, nil
+}
+
+
+
 // Get
 func (r *repository) GetAll(ctx context.Context) ([]Producto, error) {
 	if len(r.db) < 1 {

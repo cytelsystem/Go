@@ -17,6 +17,7 @@ type Service interface {
 	Update(ctx context.Context, id int, producto *Producto) (*Producto, error)
 	Patch(ctx context.Context, id int, campos map[string]interface{}) (*Producto, error)
 	Delete(ctx context.Context, id int) error
+	Create(ctx context.Context, requestProducto *RequestProducto) (*Producto, error)
 }
 
 func NewService(repository Repository) Service {
@@ -26,6 +27,18 @@ func NewService(repository Repository) Service {
 }
 
 // ***************Metodos interface service***************************//
+
+// Create
+func (s *service) Create(ctx context.Context, requestProducto *RequestProducto) (*Producto, error) {
+	nuevoProducto, err := s.repository.Create(ctx, requestProducto)
+	if err != nil {
+			log.Println("Error al crear un nuevo producto en el servicio:", err.Error())
+			return nil, err
+	}
+	return nuevoProducto, nil
+}
+
+
 // Get
 func (s *service) GetAll(ctx context.Context) ([]Producto, error) {
 	productos, err := s.repository.GetAll(ctx)
@@ -119,4 +132,16 @@ func (s *service) Patch(ctx context.Context, id int, campos map[string]interface
 	}
 
 	return productoActualizado, nil
+}
+
+func requestToProducto(requestProduct RequestProducto) Producto {
+	var producto Producto
+	producto.Name = requestProduct.Name
+	producto.Quantity = requestProduct.Quantity
+	producto.CodeValue = requestProduct.CodeValue
+	producto.Expiration = requestProduct.Expiration
+	producto.IsPublished = requestProduct.IsPublished
+	producto.Price = requestProduct.Price
+
+	return producto
 }

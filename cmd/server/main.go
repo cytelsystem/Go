@@ -31,6 +31,7 @@ func main() {
 	router.PUT("/productos/:id", controlador.Update())
 	router.DELETE("/productos/:id", controlador.Delete())
 	router.PATCH("/productos/:id", controlador.Patch())
+	router.POST("/productos", controlador.Create())
 
 	if err := router.Run(port) ; err != nil {
 		panic(err)
